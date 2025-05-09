@@ -15,6 +15,12 @@ body {
 
 img {
     max-width: 100%;
+    // thêm căn giữa và bo góc cho ảnh
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: .75em;
 }
 
 .content {
@@ -63,8 +69,8 @@ ul.task-list {
 
 .sidebar {
     position: fixed;
-    top: 75px;
-    right: 17px;
+    top: 1em;
+    right: 1em;
     height: 100%;
     min-width: 25px;
     display: flex;
@@ -128,18 +134,22 @@ ul.task-list {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 87%;
+    // height: 87%;
+    // height: 100%; // để 100% so với chiều cao của .sidebar
+    margin-bottom: 1em;
 }
 
 .toc {
     padding-right: 5px;
     background-color: var(--background-primary);
     padding: 10px;
-    border-radius: 10px;
+    // border-radius: 10px;
 
     ol {
         list-style: none;
         padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0;
         border-left: 2px solid var(--background-secondary);
     }
 
@@ -190,12 +200,14 @@ ul.task-list {
         width: fit-content;
         padding: 3px 7px 3px 0;
         border-radius: 10px 10px 0 0;
+        // thêm độ đậm cho title của TOC
+        font-weight: var(--bold-weight);
     }
 }
 
 .backlinks {
     flex: 1;
-    margin-top: 10px;
+    // margin-top: 10px;
     background-color: var(--background-primary);
     border-radius: 10px;
     padding: 10px;
@@ -204,6 +216,8 @@ ul.task-list {
         margin: 4px 0;
         font-size: 18px !important;
         color: var(--h6-color);
+        // thêm độ đậm cho backlink-title
+        font-weight: var(--bold-weight);
     }
 }
 
@@ -250,6 +264,8 @@ ul.task-list {
         font-size: 1.2rem !important;
         border-radius: 10px 10px 0 0;
         color: var(--h6-color);
+        // Thêm độ đậm cho title của graph
+        font-weight: var(--bold-weight);
     }
 }
 
@@ -266,6 +282,7 @@ ul.task-list {
     }
     .sidebar {
         position: relative;
+        top: 3em;
         transform: none;
         border-radius: 4px;
         margin-top: 50px;
@@ -280,6 +297,7 @@ ul.task-list {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 3em;
     }
 
     .graph {
@@ -735,6 +753,7 @@ body.backlinks-note-icon .backlink[data-note-icon="3"]::before {
     color: var(--text-muted);
     gap: 10px;
     margin-top: 20px;
+    margin-bottom: 2em;
 
     div {
         display: flex;

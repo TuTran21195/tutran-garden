@@ -31,7 +31,7 @@ body {
     --callout-border-width: 0px;
     --callout-border-opacity: 0.25;
     --callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
-    --callout-radius: var(--radius-s);
+    --callout-radius: var(--radius-l); // chuyển từ -s sang -l để bo nhiều hơn
     --callout-blend-mode: var(--highlight-mix-blend-mode);
     --callout-title-padding: 0;
     --callout-title-size: inherit;
@@ -213,7 +213,9 @@ body {
     --input-font-weight: var(--font-normal);
     --input-border-width: 1px;
     /* Italic */
-    --italic-color: inherit;
+    // --italic-color: inherit; -> cũ
+    --italic-color: #309898; 
+
     /* Z-index */
     --layer-cover: 5;
     --layer-sidedock: 10;
@@ -234,7 +236,8 @@ body {
     --link-decoration: underline;
     --link-decoration-hover: underline;
     --link-decoration-thickness: auto;
-    --link-external-color: var(--text-accent);
+    // --link-external-color: var(--text-accent);
+    --link-external-color: #AE431E;
     --link-external-color-hover: var(--text-accent-hover);
     --link-external-decoration: underline;
     --link-external-decoration-hover: underline;
@@ -502,7 +505,9 @@ body {
     --color-pink: #B03052;
     --color-base-00: #ffffff;
     --color-base-05: #fcfcfc;
-    --color-base-10: #fafafa;
+    // --color-base-10: #fafafa;
+    --color-base-10: #f3ebd7; // -> màu backgound code mới `code inline`
+
     --color-base-20: #f6f6f6;
     --color-base-25: #e3e3e3;
     --color-base-30: #e0e0e0;
@@ -510,7 +515,8 @@ body {
     --color-base-40: #bdbdbd;
     --color-base-50: #ababab;
     --color-base-60: #707070;
-    --color-base-70: #5a5a5a;
+     --color-base-70: #5a5a5a 
+    // --color-base-70:  #6c99bb; 
     --color-base-100: #222222;
     --color-accent-hsl: var(--accent-h),
               var(--accent-s),
@@ -5898,6 +5904,9 @@ body {
   }
   .callout-title-inner {
     font-weight: var(--bold-weight);
+
+    // thêm căn đều hai bên cho đẹp
+    text-align: justify;
   }
   .callout-fold {
     display: flex;
@@ -5923,7 +5932,7 @@ body {
   }
   .markdown-rendered pre code {
     border: none;
-    padding: 0;
+    padding: 1em; // chuyển từ 0 sang 1em để phần code full box ``` sẽ được cách ra (``` sẽ khác với inline code `)
   }
   .markdown-rendered pre:not(:hover) > button.copy-code-button {
     display: none;
@@ -6133,7 +6142,7 @@ body {
     color: var(--code-normal);
     font-family: var(--font-monospace);
     background-color: var(--code-background);
-    border-radius: var(--radius-s);
+    border-radius: var(--radius-m);
     font-size: var(--code-size);
     padding: 0.1em 0.25em;
   }
@@ -7390,6 +7399,9 @@ body {
   .markdown-rendered mark {
     background-color: var(--text-highlight-bg);
     color: var(--text-normal);
+    // sửa lại phần highlight cho nó hơi bo lại cho xinh :v
+    border-radius: 4px;
+    padding: .1em .25em;
   }
   .markdown-rendered mark .internal-link {
     color: var(--text-normal);
