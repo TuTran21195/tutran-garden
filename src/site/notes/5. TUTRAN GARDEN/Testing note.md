@@ -13,7 +13,7 @@
 ###### Heading 6
 [[1. PROJECT/Giấu tin (Steg)/tutorial - Cách imodule bài lab đã tạo để publish\|tutorial - Cách imodule bài lab đã tạo để publish]]
 
-Hỗ trợ đến heading 6, xem cách nó căn chỉnh lề hai bên nè: lúc này phải chờ khá lâu, đồng thời khi xong thì nó sẽ yêu cầu nhập mật khẩu của dockerhub của mình (vd: `tutran21195` `<matkhau>`)  
+Hỗ trợ đến ==heading 6==, xem cách nó căn chỉnh lề hai bên nè: lúc này phải chờ khá lâu, đồng thời khi xong thì nó sẽ yêu cầu nhập mật khẩu của dockerhub của mình (vd: `tutran21195` `<matkhau>`)  
 sau đó thì mình imodule. Nhưng nên nhớ khi dùng `create-imodules.sh` thì nó sẽ đóng hết tất cả các lab đã được commit trên repo local. Vì thế cần tạo nhánh cho repo để lưu mỗi bài lab riêng, hoặc có thể xóa commit cũ đi để trên nhánh main luôn chỉ có 1 bài lab -> -> -> 
 
 Callout nè:
@@ -67,6 +67,9 @@ Checkbox nè
 	- sau đó thì mình **imodule. Nhưng nên nhớ** khi dùng `create-imodules.sh` thì nó sẽ đóng hết tất *cả các lab đã được commit* trên repo local. Vì thế cần tạo nhánh cho ~~repo để lưu mỗi~~ bài lab riêng, hoặc có [thể xóa commi](http.)t cũ đi để trên nhánh main luôn chỉ có 1 bài lab
 - [x] Checkbox này oke khom: lúc này phải chờ khá lâu, đồng thời khi xong thì nó sẽ yêu cầu nhập mật khẩu của dockerhub của mình (vd: `tutran21195` `<matkhau>`)  
 	- sau đó thì mình imodule. Nhưng nên nhớ khi dùng `create-imodules.sh` thì nó sẽ đóng hết tất cả các lab đã được commit trên repo local. Vì thế cần tạo nhánh cho repo để lưu mỗi bài lab riêng, hoặc có thể xóa commit cũ đi để trên nhánh main luôn chỉ có 1 bài lab
+
 Thử paste ảnh:
 ![Pasted image 20250509165435.png|400](/img/user/2.%20RESOURCE/attachments/Pasted%20image%2020250509165435.png)
 ![Pasted image 20250509165531.png](/img/user/2.%20RESOURCE/attachments/Pasted%20image%2020250509165531.png)
+
+lúc này phải chờ khá lâu, đồng thời khi xong thì nó sẽ yêu cầu nhập mật khẩu của dockerhub của mình (vd: `tutran21195` `<matkhau>`) sau đó thì mình imodule. Nhưng nên nhớ khi dùng `create-imodules.sh` thì nó sẽ đóng hết tất cả các lab đã được commit trên repo local. Vì thế cần tạo nhánh cho repo để lưu mỗi bài lab riêng, hoặc có thể xóa commit cũ đi để trên nhánh main luôn chỉ có 1 bài lab
