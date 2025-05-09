@@ -48,7 +48,8 @@ body {
     --checklist-done-color: var(--text-muted);
     /* Code */
     --code-size: var(--font-smaller);
-    --code-background: var(--background-primary-alt);
+    // --code-background: var(--background-primary-alt);
+    --code-background:  #f3ebd7; // -> màu backgound code mới `code inline`
     --code-normal: var(--text-muted);
     --code-comment: var(--text-faint);
     --code-function: var(--color-yellow);
