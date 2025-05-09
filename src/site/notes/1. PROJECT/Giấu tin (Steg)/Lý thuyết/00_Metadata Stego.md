@@ -3,11 +3,11 @@
 ---
 
 
-# Book:
+# Books:
 
 
 Giáo trình (local only): [Chợ ĐX giáo trình các kỹ thuật giấu tin.pdf](#)
-Sách hướng dẫn làm lab (published): [labdesigner.pdf]([Labtainers/docs/labdesigner/labdesigner.pdf at master · mfthomps/Labtainers](https://github.com/mfthomps/Labtainers/blob/master/docs/labdesigner/labdesigner.pdf))
+Sách hướng dẫn làm lab (published): [labdesigner.pdf](https://github.com/mfthomps/Labtainers/blob/master/docs/labdesigner/labdesigner.pdf)
 Sách Kỹ thuật trải phổ và ứng dụng (published): [KĨ THUẬT TRẢI PHỔ VÀ ỨNG DỤNG - Học viện kỹ thuật quân sự](https://dulieu.tailieuhoctap.vn/books/khoa-hoc-ky-thuat/vien-thong/file_goc_768376.pdf)
 # Các bài lab đã xây dựng và các đường dẫn liên quan:
 
