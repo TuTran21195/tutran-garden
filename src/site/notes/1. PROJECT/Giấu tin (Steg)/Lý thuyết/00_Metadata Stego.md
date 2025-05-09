@@ -4,9 +4,10 @@
 
 
 # Book:
-Giáo trình: [Chợ ĐX giáo trình các kỹ thuật giấu tin.pdf](file:///E:/Data%20of%20TuTran/A08-K%E1%BB%B3%202%20n%C4%83m%204/c%C3%A1c%20k%E1%BB%B9%20thu%E1%BA%ADt%20gi%E1%BA%A5u%20tin/Ch%E1%BB%A3%20%C4%90X%20gi%C3%A1o%20tr%C3%ACnh%20c%C3%A1c%20k%E1%BB%B9%20thu%E1%BA%ADt%20gi%E1%BA%A5u%20tin.pdf)
-Sách hướng dẫn làm lab: [labdesigner.pdf](file:///E:/Data%20of%20TuTran/A08-K%E1%BB%B3%202%20n%C4%83m%204/c%C3%A1c%20k%E1%BB%B9%20thu%E1%BA%ADt%20gi%E1%BA%A5u%20tin/labdesigner.pdf)
 
+
+Giáo trình (local only): [Chợ ĐX giáo trình các kỹ thuật giấu tin.pdf](#)
+Sách hướng dẫn làm lab (published): [labdesigner.pdf]([Labtainers/docs/labdesigner/labdesigner.pdf at master · mfthomps/Labtainers](https://github.com/mfthomps/Labtainers/blob/master/docs/labdesigner/labdesigner.pdf))
 Sách Kỹ thuật trải phổ và ứng dụng (published): [KĨ THUẬT TRẢI PHỔ VÀ ỨNG DỤNG - Học viện kỹ thuật quân sự](https://dulieu.tailieuhoctap.vn/books/khoa-hoc-ky-thuat/vien-thong/file_goc_768376.pdf)
 # Các bài lab đã xây dựng và các đường dẫn liên quan:
 
