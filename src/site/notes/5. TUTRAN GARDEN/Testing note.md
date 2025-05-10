@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/test/","permalink":"/test/","title":"Testing component","tags":["tutran-garden"],"created":"2025-05-09T16:25:36.286+07:00"}
+{"dg-publish":true,"dg-permalink":"test/","permalink":"/test/","title":"Testing component","tags":["tutran-garden"],"created":"2025-05-09T16:25:36.286+07:00"}
 ---
 
 # Heading 1 - test căn lề hai bên, chữ cái như ê ế ề ệ ê ư ứ ừ ơ ớ ờ ợ

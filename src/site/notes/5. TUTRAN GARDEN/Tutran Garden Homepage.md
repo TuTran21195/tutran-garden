@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/5-tutran-garden/tutran-garden-homepage/","title":"Tutran Garden","pinned":true,"tags":["#tutran-garden","gardenEntry"],"created":"2025-05-09T13:31:07.746+07:00"}
+{"dg-publish":true,"permalink":"/5-tutran-garden/tutran-garden-homepage/","title":"Tutran Garden","pinned":true,"tags":["tutran-garden","gardenEntry"],"created":"2025-05-09T13:31:07.746+07:00"}
 ---
 
 # Hi there! Welcome to Tutran Garden
