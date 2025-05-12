@@ -152,7 +152,7 @@ git rm -rf .
 
 Vào thư mục lab mới đó của mình
 ```sh
-cd my-new-lab-branch
+cd my-new-lab
 python3 /home/student/labtainer/trunk/scripts/designer/bin/cleanlab4svn.py
 cd ..
 ```
