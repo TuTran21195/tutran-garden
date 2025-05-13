@@ -115,4 +115,22 @@ Ra checkwork là xong!
 
 `gdb_commands ` chỉ đếm số lần mình chạy các lệnh gdb thôi nên là không cần quá chú ý.  Nhưng nếu vẫn muốn nó là con số cụ thể nào đó thì cứ việc chạy thêm lệnh `gdb mystuff` sau đó gõ các lệnh có trong gdb như `list`, run, r, display,... nói chung là giống bài _gdb-cpp_.
 
-# Bài 
+# Bài buf64
+``` bash
+sudo nano stack.c
+```
+Sửa hàm main
+```c
+int main(int argc, char *argv[])
+{
+    printf("cat exploit.c\n");
+    return 1;
+}
+
+```
+
+Biên dịch và chạy nó là xong:
+``` bash
+gcc -m32 -g -o stack stack.c
+./stack
+```
