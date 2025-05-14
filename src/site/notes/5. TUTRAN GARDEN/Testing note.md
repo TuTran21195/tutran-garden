@@ -13,7 +13,7 @@
 ###### Heading 6
 [[1. PROJECT/Giấu tin (Steg)/tutorial - Cách imodule bài lab đã tạo để publish\|tutorial - Cách imodule bài lab đã tạo để publish]]
 
-Hỗ trợ đến ==heading 6==, xem cách nó căn chỉnh lề hai bên nè: lúc này phải chờ khá lâu, đồng thời khi xong thì nó sẽ yêu cầu nhập mật khẩu của dockerhub của mình (vd: `tutran21195` `<matkhau>`)  
+Hỗ trợ đến ==heading 6==, xem cách nó căn <font color="#b2a2c7">chỉnh lề </font>hai bên <font color="#b2a2c7">nè: lúc này phải chờ</font> khá lâu, đồng thời khi xong thì nó sẽ yêu cầu nhập mật khẩu của dockerhub của mình (vd: `tutran21195` `<matkhau>`)  
 sau đó thì mình imodule. Nhưng nên nhớ khi dùng `create-imodules.sh` thì nó sẽ đóng hết tất cả các lab đã được commit trên repo local. Vì thế cần tạo nhánh cho repo để lưu mỗi bài lab riêng, hoặc có thể xóa commit cũ đi để trên nhánh main luôn chỉ có 1 bài lab -> -> -> 
 
 Callout nè:
@@ -37,7 +37,7 @@ cd $LABTAINER_DIR/distrib
 cd ~/labtainer/trunk/labs git init
 ```
 
-Code: kiểm tra xem có được định dạng màu không.
+Code: kiểm tra xem có được định dạng màu không. →  xem kỹ việc nó có bị biến đổi ký tự != hay không -> kiểm tra kỹ lại → → → → 
 ```python
 def text_to_bits(message_file):
     with open(message_file, 'r') as f:
