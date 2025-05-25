@@ -24,4 +24,14 @@ body {
     label {
       text-align: justify;
     }
+
+    // căn lề lại cái TOC
+    .toc>ol {
+      padding-left: 0px;
+    }
+
+    // Chỉnh lại cho highlight background của chữ sẽ được bo góc
+    span {
+    border-radius: 4px;
+    }
 }
