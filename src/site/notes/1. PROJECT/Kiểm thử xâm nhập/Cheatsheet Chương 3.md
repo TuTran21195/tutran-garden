@@ -6,6 +6,12 @@
 
 Ôn tập cách mà function hoạt động: `how function works esp stack pointer` 
 [The Stack and ESP in Assembly Language - What happens when you call a procedure?](https://www.youtube.com/watch?v=RU5vUIl1vRs&pp=ygUkaG93IGZ1bmN0aW9uIHdvcmtzIGVzcCBzdGFjayBwb2ludGVy "The Stack and ESP in Assembly Language - What happens when you call a procedure?")
+
+- Địa chỉ trở về của ctrinh: EBP
+- Giá trị trả về của hàm: EAX
+-  truy xuất giá trị của một biến cục bộ: EBP
+- truy xuất giá trị của một biến toàn cục: ESP
+- Khi lệnh RET được thực thi Giá trị được trả về từ hàm được đưa vào thanh ghi **EIP**
 # Cheetsheet - Prompt 1
 
 

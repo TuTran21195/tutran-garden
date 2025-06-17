@@ -6,144 +6,7 @@
 
 ---
 
-### **CHEATSHEET CHƯƠNG 4: PHÂN TÍCH LỖ HỔNG**
-
-Chương 4 tập trung vào các kỹ thuật **phân tích lỗ hổng**, bao gồm phân tích mã nguồn, phân tích mã đã dịch, kỹ thuật fuzzing, và các phương pháp khai thác/phòng ngừa lỗ hổng.
-
-#### **1. Phân tích Mã Nguồn (Source Code Analysis)**
-
-Là quá trình đánh giá, kiểm tra, phân tích mã nguồn phần mềm để tìm lỗ hổng bảo mật và các vấn đề khác.
-
-- **Phân tích Thủ công (Manual Analysis)**
-    
-    - **Khi nào sử dụng?** Khi ngôn ngữ lập trình không được hỗ trợ kiểm tra tự động, để kiểm tra tất cả các khía cạnh của chương trình, hoặc phân tích cấu trúc lập trình phức tạp làm mẫu cho công cụ tự động.
-    - **Quá trình:** Đọc và kiểm tra mã nguồn bằng tay. Thường được thực hiện bởi chuyên gia bảo mật hoặc người có kinh nghiệm phát triển phần mềm.
-    - **Trọng tâm:** Cách dữ liệu người dùng cung cấp được xử lý trong ứng dụng.
-    - **Hạn chế:** Tốn thời gian, công sức (đặc biệt dự án lớn), giới hạn bởi khả năng phát hiện lỗi của con người.
-    - **Các điểm cần tập trung:**
-        - Tìm kiếm **lỗi bảo mật** (XSS, SQL Injection, tràn bộ đệm).
-        - Kiểm tra tính chính xác và hợp lệ của **tham số đầu vào**.
-        - Kiểm tra **tính bảo mật của hệ thống/máy chủ**.
-        - Kiểm tra **tính tương thích** của ứng dụng (trình duyệt, HĐH, thiết bị khác nhau).
-        - Kiểm tra **mã lược đồ** (cách truy cập CSDL).
-        - **Vấn đề thường gặp:** Giả định về độ dài dữ liệu, sử dụng giá trị `signed/unsigned`, xử lý dữ liệu vượt quá giới hạn, kiểm tra `null terminator`, truy cập ngoài mảng, kiểm tra giá trị trả về từ hàm cấp phát bộ nhớ (như `malloc`), khởi tạo biến, sử dụng con trỏ hàm/nhảy, truyền chuỗi người dùng cung cấp vào hàm sử dụng làm string.
-- **Phân tích Tự động (Automated Analysis)**
-    
-    - Sử dụng **công cụ phân tích mã nguồn** để tìm lỗi lập trình, lỗ hổng bảo mật. Có thể phân tích tĩnh hoặc động.
-    - **Công cụ ví dụ:** Yasca (Yet Another Source Code Analyzer) – mã nguồn mở, Python, phát hiện SQL Injection, XSS.
-    - **Ưu điểm:** Tốc độ nhanh hơn, chính xác hơn, phát hiện lỗi chi tiết hơn, giảm sự phụ thuộc vào khả năng con người.
-    - **Hạn chế:** Không phát hiện được tất cả lỗi/lỗ hổng, có thể xảy ra lỗi phát hiện sai (false positives) hoặc báo động giả, cần đầu tư chi phí cho công cụ.
-
-#### **2. Phân tích Mã Chương trình đã dịch (Analysis of Compiled Programs)**
-
-Là quá trình phân tích và hiểu cấu trúc, chức năng của chương trình đã được biên dịch thành mã máy (assembly) hoặc mã đối tượng (object code). Yêu cầu kỹ năng cao hơn so với phân tích mã nguồn mở.
-
-- **Mã thông dịch (Interpreted Code)**
-    
-    - **Khái niệm:** Mã nguồn được chuyển thành mã thực thi ngay lập tức khi chương trình chạy bởi một **trình thông dịch (interpreter)**. Ví dụ: Java, Python (biên dịch sang bytecode).
-    - **Ưu điểm:** Thực thi nhanh hơn vì không cần chuyển đổi toàn bộ trước, dễ cập nhật mã nguồn và kiểm tra lỗi.
-    - **Nhược điểm:** Có thể chậm hơn mã biên dịch khi thực thi, không đảm bảo tính bảo mật cao (mã nguồn được dịch thực thi ngay lập tức).
-- **Mã biên dịch (Compiled Code)**
-    
-    - **Khái niệm:** Ngôn ngữ như C, C++ được biên dịch thành **ngôn ngữ máy cụ thể** và liên kết với thư viện hệ điều hành. Khó dịch ngược hơn vì có thể bị loại bỏ thông tin gỡ lỗi và tên gốc (symbols).
-    - **Công cụ:** IDA Pro (Interactive Disassembler Professional), Hex-Rays Decompiler (plug-in của IDA Pro).
-    - **Gỡ lỗi:** Cần truyền thông tin cho HĐH về điểm vào, bố cục bộ nhớ, thư viện cần truy cập. Thông tin này chứa trong các **tệp tin thực thi** (Executable files) như PE (Portable Executable) cho Windows và ELF (Executable and Linking Format) cho Linux/Unix.
-    - **Kỹ thuật:** **FLIRT (Fast Library Identification and Recognition Technology)** trong IDA Pro giúp xác định các hàm thư viện chuẩn đã biết bằng cách so khớp mã dịch ngược với chữ ký hàm.
-    - **Tính năng của IDA Pro:** Biểu đồ mã, biểu đồ luồng hàm, hiển thị ký tự ASCII/Unicode, CSDL cấu trúc dữ liệu và hàm nguyên mẫu, kiến trúc plug-in, công cụ kịch bản, bộ gỡ lỗi tích hợp.
-
-#### **3. Kỹ thuật Fuzzing**
-
-Là kỹ thuật phát hiện lỗi phần mềm bằng cách **tự động/bán tự động sinh dữ liệu đầu vào ngẫu nhiên hoặc không hợp lệ (fuzzing data)** và chuyển cho hệ thống xử lý, sau đó theo dõi và ghi lại các lỗi. Đây là một kỹ thuật **kiểm thử hộp đen**.
-
-- **Ưu điểm:** Rất hiệu quả trong tìm kiếm lỗi bảo mật nghiêm trọng (như làm chương trình dừng, rò rỉ bộ nhớ), cải thiện an ninh phần mềm, tìm lỗi không được phát hiện bằng cách kiểm thử truyền thống.
-    
-- **Nhược điểm:** Không thể cung cấp đầy đủ thông tin về lỗi bảo mật tổng thể, kém hiệu quả với lỗi không gây crash (như virus), không cung cấp kiến thức sâu về hoạt động nội bộ phần mềm, tốn thời gian với đầu vào phức tạp.
-    
-- **Các bước thực hiện:**
-    
-    1. **Xác định mục tiêu:** Các ứng dụng có nguy cơ rủi ro cao (SQL Injection, Code Injection, Cross Site Scripting, URL Redirect, lỗi cấu hình).
-    2. **Xác định đầu vào:** Các lớp đầu vào ứng với fuzzer (đối số dòng lệnh, biến môi trường, ứng dụng web, định dạng file, giao thức mạng, đối tượng Memory COM, IPC).
-    3. **Tạo dữ liệu:** Sinh dữ liệu thử nghiệm thỏa mãn điều kiện đầu vào ứng dụng, có thể dạng file nhị phân/văn bản, lặp lại nhiều testcase. Hiệu quả phụ thuộc vào độ bao phủ không gian đầu vào và chất lượng dữ liệu kiểm thử.
-    4. **Thực hiện test:** Đặt fuzzer để tự động hóa quá trình kiểm thử, tập trung vào kiểu số, ký tự, siêu dữ liệu, chuỗi nhị phân, định dạng file, giao thức mạng.
-    5. **Giám sát dữ liệu:** Phát hiện và định nghĩa các lỗi, tích hợp phân loại lỗi tự động.
-    6. **Xác định khả năng khai thác:** Kiểm tra xem lỗi có khả năng khai thác không và báo cáo cho đội phát triển.
-- **Fuzzing khi chưa biết rõ giao thức:**
-    
-    - **Thách thức:** Xây dựng fuzzer cho các giao thức không rõ cấu trúc.
-    - **Giải pháp:** Sử dụng kỹ thuật **dịch ngược** hoặc **công cụ giám sát mạng** (như Wireshark) để nắm bắt lưu lượng và cô lập dữ liệu lớp ứng dụng để phân tích.
-
-#### **4. Phương pháp Khai thác khi tìm ra Lỗ hổng**
-
-Tìm ra vấn đề hoặc gây lỗi chương trình là bước đầu tiên. Tiếp theo là xác định và thực hiện khai thác.
-
-- **Xem xét Khả năng Khai thác (Exploitability Assessment)**
-    
-    - **Phân biệt:** Lỗi dừng chương trình (DoS) và khả năng khai thác (chèn/thực thi mã) là khác nhau.
-        
-    - **Gỡ lỗi (Debugging):** Bộ gỡ lỗi (debugger) là công cụ quan trọng để hiểu nguyên nhân lỗi và cách dữ liệu đầu vào gây crash. Khi một ngoại lệ (exception) xảy ra (ví dụ: lỗi phân đoạn), debugger cung cấp cái nhìn toàn diện về trạng thái ứng dụng.
-        
-    - **Phân tích ban đầu:** Xác định lý do và vị trí chương trình bị lỗi. Quan tâm đến địa chỉ bị lỗi có giống với dữ liệu đầu vào của người dùng không (ví dụ: 0x41414141).
-        
-    - **Chỉ dẫn phân tích con trỏ:**
-        
-        - **Con trỏ lệnh (EIP - Instruction Pointer)** là đầu mối tốt nhất.
-        - Nếu EIP trỏ đến mã hợp lệ: Lệnh ngay trước EIP thường là nguyên nhân lỗi. Phân tích lệnh và các thanh ghi để tìm mối quan hệ với dữ liệu nhập vào.
-        - Nếu EIP bị hỏng (trỏ đến vị trí bất kỳ): Xác định khả năng chèn mã vào vị trí đó, hoặc kiểm soát EIP để chuyển hướng đến dữ liệu người dùng cung cấp (shellcode).
-        - **Dấu vết ngăn xếp (Stack trace):** Phân tích nội dung ngăn xếp để tìm trình tự các hàm được gọi dẫn đến lỗi.
-    - **Phân tích Thanh ghi (Register Analysis):**
-        
-        - Nếu không kiểm soát được EIP, tìm thanh ghi khác để gây thiệt hại. Lý tưởng là tìm hoạt động ghi vào vị trí tùy ý. Nghiên cứu từng thanh ghi đa năng (EAX, EBX, ECX, EDX) để xem nó góp phần tính toán địa chỉ đích và chứa dữ liệu người dùng cung cấp.
-        - **Mục đích:** Ghi giá trị được lựa chọn cẩn thận đến địa chỉ sẽ làm kết quả chuyển đến shellcode (ví dụ: ghi đè địa chỉ trả về, con trỏ nhảy, con trỏ bảng nhập, con trỏ hàm).
-    - **Nâng cao độ tin cậy của Khai thác:**
-        
-        - Xác định liệu có thanh ghi nào trỏ trực tiếp vào **shellcode** tại thời điểm kiểm soát EIP không.
-        - Kỹ thuật kinh điển: ghi đè EIP đã lưu bằng địa chỉ của lệnh **`jmp esp`** hoặc **`call esp`**. Khi hàm khai thác trả về, quyền điều khiển chuyển đến `jmp esp`, và nó ngay lập tức chuyển quyền điều khiển trở lại shellcode.
-        - Có thể tìm lệnh `jmp/call` hữu ích bằng cách kiểm tra mã dịch ngược hoặc quét tệp nhị phân cho chuỗi byte lệnh.
-- **Tạo Payload để Khai thác (Payload Generation)**
-    
-    - Là quá trình tạo **đầu vào chính xác** để khai thác lỗ hổng.
-    - **Yếu tố của Payload:**
-        - **Các phần tử giao thức:** Dẫn ứng dụng có lỗ hổng theo đường dẫn chính xác.
-        - **Padding, NOP:** Thay đổi bộ đệm.
-        - **Kích hoạt dữ liệu khai thác:** Địa chỉ trả về, địa chỉ ghi.
-        - **Mã thực thi (Payload/Shellcode):** Thực hiện hành động xâm nhập.
-    - **Vấn đề gây ra kết quả sai:** Giao thức sai, địa chỉ trả về không khớp, dữ liệu điều khiển heap sai, đặt nhầm vị trí shellcode, dữ liệu đầu vào chứa ký tự đặc biệt, chương trình đích chuyển đổi bộ đệm (ASCII sang Unicode).
-    - **Vấn đề liên quan đến bộ đệm:** Khi tràn bộ đệm, thông tin điều khiển trong bộ đệm bị thay đổi. Các phiên bản `gcc` gần đây sắp xếp lại ngăn xếp, đặt biến không phải mảng giữa bộ đệm và địa chỉ trả về, gây khó khăn cho việc tạo dữ liệu đầu vào và ngăn chặn thay đổi cấu trúc điều khiển.
-
-#### **5. Các Phương pháp Phòng ngừa Khai thác Lỗ hổng**
-
-Khi phát hiện lỗ hổng, cần có giải pháp bảo vệ trong thời gian chờ bản vá hoặc cập nhật.
-
-- **Một số phương pháp phòng ngừa phổ biến:**
-    
-    - **Đánh giá lại tiêu chuẩn rủi ro:** Tắt dịch vụ không cần thiết, dùng tường lửa cho dịch vụ không công khai, tắt các tùy chọn không an toàn.
-    - **Port knocking:**
-        - Kỹ thuật phòng thủ sử dụng **chuỗi cổng** để đóng/mở truy nhập dịch vụ mạng.
-        - **Hạn chế:** Không giải quyết lỗ hổng, chỉ gây khó khăn tiếp cận. Kẻ tấn công có thể bắt được trình tự gõ.
-    - **Di chuyển (Migration):**
-        - **Sang Hệ điều hành mới:** Chỉ khi có phiên bản ứng dụng đó trên HĐH mới. Cân nhắc tính năng bảo vệ của HĐH mới (ExecShield, Grsecurity, Windows 7/Server 2008, OpenBSD, Openwall Project).
-        - **Sang Ứng dụng mới:** Khó thực hiện do thiếu lựa chọn thay thế, di chuyển dữ liệu, tác động đến người dùng. Cần xem xét hồ sơ bảo mật và phản hồi của nhà cung cấp đối với các vấn đề bảo mật.
-- **Tạo Bản Vá (Patching):**
-    
-    - Là cách duy nhất chắc chắn để bảo vệ ứng dụng có lỗ hổng là tắt hoặc vá nó.
-    - **Vá mã nguồn mở:**
-        - Dễ dàng hơn vá nhị phân. Người dùng có thể đóng góp vào phát triển và bảo trì.
-        - Cần đảm bảo bản vá không gây ra lỗ hổng mới và hiểu rõ kiến trúc hệ thống.
-        - **Công cụ:** `diff` (tạo bản vá bằng cách so sánh file) và `patch` (áp dụng bản vá).
-    - **Vá nhị phân:**
-        - Sử dụng khi **không thể truy cập mã nguồn gốc** hoặc nhà cung cấp không/chậm hỗ trợ.
-        - Yêu cầu kiến thức chi tiết về định dạng file thực thi và cẩn trọng để không làm hỏng cấu trúc file nhị phân.
-        - **Kỹ thuật:** Tìm các "lỗ" (không gian đệm) trong không gian ảo của chương trình nhị phân để chèn mã mới. Thay thế mã có lỗ hổng bằng mã vá, sau đó trở lại vị trí ban đầu.
-        - **Công cụ:** Trình soạn thảo mã hex, Xdelta (tạo và áp dụng bản vá nhị phân).
-        - **Hạn chế:** Cấu trúc file thực thi cứng nhắc, khó tìm không gian chèn mã mới. Di chuyển lệnh có thể yêu cầu cập nhật địa chỉ nhảy. Thay thế lời gọi hàm phức tạp (đặc biệt với liên kết tĩnh).
-        - **Mục đích khác:** Biến đổi ứng dụng để chống lại các loại malware chuẩn, thay đổi đặc tính để không còn dễ bị tấn công bởi "cộng đồng" đã phát triển tấn công các phiên bản chưa vá.
-
----
-
-
----
-
-### Cheatsheet bản 2 Chương 4: Phân tích mã nguồn
+### Cheatsheet Chương 4: Phân tích mã nguồn
 
 Chương này tập trung vào các kỹ thuật và phương pháp để **đánh giá, kiểm tra và phân tích mã nguồn** của phần mềm hoặc ứng dụng nhằm tìm ra **các lỗ hổng bảo mật** và các vấn đề khác.
 
@@ -338,6 +201,51 @@ Phân tích mã nguồn có thể được thực hiện bằng hai kỹ thuật
         - Có thể sử dụng phương pháp đặt các vị trí lệnh mới (lỗ) trong không gian ảo của chương trình nhị phân để bỏ qua mã của lỗ hổng.
         - Lưu ý vấn đề phân phối khi bản vá nhị phân được tạo và thử nghiệm thành công.
 
----
 
-Hy vọng cheatsheet này sẽ giúp bạn hệ thống hóa kiến thức và ôn tập hiệu quả cho bài kiểm tra của mình! Chúc bạn học tốt!
+---
+# In layman's term
+## Kỹ thuật fuzzing
+
+
+
+Hãy tưởng tượng bạn có một chiếc máy bán hàng tự động mới toanh, và bạn muốn biết liệu nó có bị hỏng nếu ai đó đưa vào những thứ kỳ lạ, không đúng quy cách hay không. Kỹ thuật Fuzzing cũng hoạt động theo một cách tương tự như vậy đấy.
+
+Dưới đây là các điểm chính về Fuzzing:
+
+- **Fuzzing là gì?**
+    
+    - Nói một cách đơn giản, **Fuzzing là một cách để tìm lỗi trong phần mềm** bằng cách **tự động hoặc bán tự động tạo ra và đưa thật nhiều dữ liệu "linh tinh", "bất thường" hoặc "không hợp lệ"** vào một chương trình máy tính.
+    - Sau đó, người ta sẽ **theo dõi xem chương trình đó phản ứng thế nào** – liệu nó có bị lỗi, bị treo, hay hoạt động sai lệch không.
+    - Những dữ liệu "linh tinh" này có thể là: các giá trị số quá lớn/nhỏ, các ký tự ngẫu nhiên, các chuỗi dữ liệu không mong đợi, hoặc các định dạng file bị hỏng.
+- **Tại sao lại dùng Fuzzing?**
+    
+    - Mục tiêu chính là **tìm ra các lỗ hổng bảo mật** (những điểm yếu trong phần mềm) mà có thể khiến chương trình bị tấn công hoặc hoạt động không đúng.
+    - Ví dụ, nó có thể giúp tìm ra các lỗi như:
+        - **Buffer overflow (tràn bộ đệm):** Giống như bạn đổ quá nhiều nước vào một cái cốc nhỏ, làm nước tràn ra ngoài và làm hỏng mọi thứ xung quanh.
+        - Các lỗi liên quan đến xác thực (ví dụ, chương trình chấp nhận mật khẩu sai).
+        - Các lỗi làm chương trình bị dừng đột ngột (crash).
+- **Đặc điểm chính của Fuzzing**:
+    
+    - Đây là một kỹ thuật **"kiểm thử hộp đen"**. Điều này có nghĩa là bạn **không cần phải xem mã nguồn** (tức là "công thức" tạo ra chương trình) để thực hiện Fuzzing. Bạn chỉ cần biết cách tương tác với chương trình mà thôi.
+    - Các công cụ hoặc chương trình dùng để thực hiện Fuzzing được gọi là **Fuzzer**.
+- **Ưu điểm (Lợi ích)**:
+    
+    - **Rất hiệu quả trong việc tìm ra các lỗi bảo mật nghiêm trọng**.
+    - Nhiều lỗi được tìm thấy bằng Fuzzing thường là những lỗi mà kẻ tấn công (hacker) hay lợi dụng, ví dụ như làm chương trình bị treo hoặc rò rỉ thông tin.
+    - Có thể tìm thấy những lỗi mà các phương pháp kiểm thử khác khó phát hiện.
+- **Nhược điểm (Hạn chế)**:
+    
+    - **Không thể tìm ra tất cả các loại lỗi bảo mật**. Ví dụ, nó kém hiệu quả với các lỗi không gây ra sự cố treo phần mềm (như virus hay trojan).
+    - Nó không cung cấp nhiều thông tin chi tiết về hoạt động bên trong của phần mềm.
+    - Với những chương trình có đầu vào rất phức tạp, việc tạo ra một fuzzer thông minh để kiểm tra có thể tốn nhiều thời gian.
+- **Cách thức thực hiện (một cách đơn giản)**:
+    
+    - **Xác định mục tiêu:** Chọn phần mềm hoặc tính năng muốn kiểm tra.
+    - **Xác định đầu vào:** Tìm hiểu xem chương trình nhận những loại dữ liệu nào (ví dụ: dữ liệu từ bàn phím, từ file, qua mạng).
+    - **Tạo dữ liệu:** Tự động tạo ra một lượng lớn dữ liệu "linh tinh" như đã nói ở trên.
+    - **Thực hiện kiểm tra:** Đưa các dữ liệu "linh tinh" này vào chương trình.
+    - **Giám sát:** Theo dõi chặt chẽ chương trình xem nó có bị lỗi, treo, hay có thông báo bất thường nào không.
+    - **Xác định khả năng khai thác:** Nếu tìm thấy lỗi, phân tích xem lỗi đó có thể bị kẻ xấu lợi dụng để tấn công hay không.
+
+Tóm lại, **Fuzzing giống như việc bạn cố tình "phá hoại" một chương trình bằng cách đưa vào những thứ "điên rồ" để xem nó có "sập" không, và nếu có, "sập" vì lý do gì, để từ đó chúng ta vá lại "lỗ hổng" đó**.
+
