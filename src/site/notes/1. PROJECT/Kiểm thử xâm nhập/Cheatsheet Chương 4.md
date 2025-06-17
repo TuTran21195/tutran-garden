@@ -117,6 +117,13 @@ Phân tích mã nguồn có thể được thực hiện bằng hai kỹ thuật
 - **Fuzzing khi biết giao thức**:
     - **Bước 1: Xác định mục tiêu**: Các mục tiêu có nguy cơ rủi ro cao (lỗi lập trình như SQL Injection, cấu hình hệ thống không an toàn), ứng dụng nhận dữ liệu qua mạng, xử lý thông tin có giá trị hoặc cá nhân.
     - **Bước 2: Xác định đầu vào**: Các lớp đầu vào ứng với fuzzer phổ biến (đối số dòng lệnh, biến môi trường, ứng dụng Web, định dạng file, giao thức mạng, đối tượng Memory COM, IPC).
+		- Đối số dòng lệnh
+		- Biến môi trường: ShareFuzz
+		- Ứng dụng Web: WebFuzz
+		- Các định dạng file: FileFuzz
+		- Giao thức mạng: SPIKE
+		- Đối tượng Memory COM: COMRaider
+		- Liên lạc liên tiến trình - IPC
     - **Bước 3: Tạo dữ liệu**: Tạo dữ liệu thử nghiệm ở các mức độ đảm bảo thỏa mãn điều kiện ứng dụng đầu vào (dạng file nhị phân, văn bản được sử dụng lặp lại). Hiệu quả fuzzing phụ thuộc vào độ bao phủ không gian đầu vào và chất lượng dữ liệu kiểm thử.
     - **Bước 4: Thực hiện test sử dụng dữ liệu fuzz**: Đối tượng tiếp cận bao gồm kiểu số, ký tự, siêu dữ liệu, chuỗi nhị phân, định dạng file, giao thức mạng. Cách tiếp cận chung là sinh tập dữ liệu giá trị nguy hiểm, chèn mã thực thi, phân tích hoạt động chương trình khi thực thi.
     - **Bước 5: Giám sát dữ liệu fuzz**: Định nghĩa các lỗi được phát hiện, có sự hiểu biết rõ về hoạt động xử lý, tích hợp vào sự kiện phân loại lỗi tự động.
