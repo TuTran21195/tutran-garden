@@ -180,7 +180,7 @@ Cheatsheet Chương 1: Khái niệm và Vai trò của Kiểm thử Xâm nhập,
 
 ---
 Dưới đây là mô tả ngắn gọn về mục đích của các công cụ kiểm thử xâm nhập (pentesting) được liệt kê:
-
+### Liệt kê công cụ:
 1. **Aircrack-ng**: Phân tích và bẻ khóa mật khẩu Wi-Fi (WEP, WPA/WPA2).
 2. **Autopsy**: Phân tích pháp y số, khôi phục dữ liệu và điều tra thiết bị lưu trữ.
 3. **Armitage**: Giao diện đồ họa cho Metasploit, quản lý và tự động hóa tấn công.
@@ -210,3 +210,69 @@ Dưới đây là mô tả ngắn gọn về mục đích của các công cụ 
 27. **VulnHub**: Cung cấp máy ảo để thực hành kiểm thử xâm nhập và học bảo mật.
 
 Các công cụ này hỗ trợ các giai đoạn khác nhau trong kiểm thử xâm nhập, từ thu thập thông tin, quét lỗ hổng, khai thác, đến phân tích sau khai thác.
+
+### Nhóm công cụ:
+Dựa trên danh sách các công cụ bạn cung cấp, dưới đây là phân loại ngắn gọn theo các nhóm được yêu cầu trong kiểm thử xâm nhập:
+
+#### 1. **Information Gathering (Thu thập thông tin)**
+- **Maltego**: Thu thập và phân tích dữ liệu OSINT, lập bản đồ mối quan hệ.
+- **Nmap**: Quét mạng, phát hiện host, dịch vụ và hệ điều hành.
+- **Zenmap**: Giao diện đồ họa của Nmap, hỗ trợ quét và thu thập thông tin mạng.
+
+#### 2. **Vulnerability Analysis (Phân tích lỗ hổng)**
+- **Nessus**: Quét lỗ hổng toàn diện trên hệ thống, mạng và ứng dụng.
+- **Nikto**: Quét máy chủ web để tìm lỗ hổng và cấu hình sai.
+- **Lynis**: Kiểm tra bảo mật hệ thống Linux/Unix, đánh giá cấu hình và lỗ hổng.
+- **VulnHub**: Cung cấp máy ảo để thực hành phân tích và khai thác lỗ hổng.
+
+#### 3. **Web Applications (Ứng dụng Web)**
+- **Burp Suite**: Kiểm tra bảo mật ứng dụng web, phát hiện lỗ hổng như XSS, SQLi.
+- **OWASP ZAP**: Quét và kiểm tra lỗ hổng ứng dụng web tự động.
+- **Sqlmap**: Tự động hóa tấn công SQL injection, khai thác lỗ hổng cơ sở dữ liệu.
+- **WPScan**: Quét lỗ hổng trên website WordPress, kiểm tra plugin và theme.
+- **BeEF**: Khai thác lỗ hổng trình duyệt, tấn công phía client trong ứng dụng web.
+
+#### 4. **Password Attacks (Tấn công mật khẩu)**
+- **Hashcat**: Bẻ khóa mật khẩu bằng brute-force hoặc dictionary attack.
+- **John the Ripper**: Công cụ bẻ khóa mật khẩu, hỗ trợ nhiều định dạng hash.
+- **Hydra**: Tấn công brute-force mật khẩu cho các giao thức (SSH, FTP, v.v.).
+
+#### 5. **Wireless Attacks (Tấn công mạng không dây)**
+- **Aircrack-ng**: Phân tích và bẻ khóa mật khẩu Wi-Fi (WEP, WPA/WPA2).
+- **Kismet**: Phát hiện và giám sát mạng không dây, phân tích lưu lượng Wi-Fi.
+
+#### 6. **Sniffing/Spoofing (Nghe lén/Giả mạo)**
+- **Wireshark**: Phân tích gói tin mạng, giám sát lưu lượng.
+- **Ettercap**: Tấn công man-in-the-middle, nghe lén và thao túng lưu lượng mạng.
+
+#### 7. **Maintaining Access (Duy trì truy nhập)**
+- **Metasploit Framework**: Khai thác lỗ hổng và triển khai payload để duy trì truy cập.
+- **Armitage**: Giao diện đồ họa cho Metasploit, hỗ trợ quản lý duy trì truy cập.
+
+#### 8. **Reverse Engineering (Dịch ngược)**
+- **Reverse Engineering Toolkit**: Phân tích mã nguồn, tháo gỡ và kiểm tra phần mềm.
+
+#### 9. **Stress Testing (Kiểm tra hiệu năng)**
+- *Không có công cụ nào trong danh sách tập trung cụ thể vào kiểm tra hiệu năng.*
+
+#### 10. **Hardware Hacking (Tấn công phần cứng)**
+- *Không có công cụ nào trong danh sách tập trung cụ thể vào tấn công phần cứng.*
+
+#### 11. **Forensic (Điều tra số)**
+- **Autopsy**: Phân tích pháp y số, khôi phục dữ liệu từ thiết bị lưu trữ.
+- **Foremost**: Khôi phục dữ liệu từ thiết bị lưu trữ, tập trung vào pháp y số.
+- **Volatility**: Phân tích bộ nhớ RAM để điều tra và pháp y số.
+
+#### 12. **Reporting Tools (Công cụ báo cáo)**
+- *Không có công cụ nào trong danh sách tập trung cụ thể vào tạo báo cáo, nhưng các công cụ như Nessus, Burp Suite, OWASP ZAP có thể xuất báo cáo kết quả quét.*
+
+#### 13. **System Services (Dịch vụ hệ thống)**
+- **Cisco Global Exploiter**: Tấn công và kiểm tra lỗ hổng trên thiết bị Cisco, liên quan đến dịch vụ hệ thống mạng.
+- **Lynis**: Kiểm tra cấu hình bảo mật hệ thống Linux/Unix, liên quan đến dịch vụ hệ thống.
+
+### Ghi chú:
+- Một số công cụ (như **Metasploit Framework**, **Armitage**) có thể thuộc nhiều nhóm vì tính đa năng của chúng.
+- **Social Engineering Tools** không được phân loại cụ thể vào một nhóm vì đây là tập hợp các công cụ hỗ trợ kỹ thuật xã hội (như phishing), có thể liên quan đến nhiều giai đoạn như thu thập thông tin hoặc khai thác.
+- Các nhóm như Stress Testing và Hardware Hacking không có công cụ cụ thể trong danh sách, vì chúng thường yêu cầu các công cụ chuyên biệt hơn (như Siege, hPing3 cho stress testing hoặc Bus Pirate cho hardware hacking).
+
+Nếu bạn cần giải thích chi tiết hơn về bất kỳ công cụ hoặc nhóm nào, hãy cho tôi biết!
