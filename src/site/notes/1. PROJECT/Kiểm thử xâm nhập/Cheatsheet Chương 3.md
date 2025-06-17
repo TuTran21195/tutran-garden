@@ -1,8 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/1-project/kiem-thu-xam-nhap/cheatsheet-chuong-3/","title":"KTXN - Cheatsheet chương 3","tags":["tutran-garden","cheatsheet"],"created":"2025-05-25T11:02:55.129+07:00"}
+{"dg-publish":true,"permalink":"/1-project/kiem-thu-xam-nhap/cheatsheet-chuong-3/","title":"KTXN - Cheatsheet chương 3","tags":["tutran-garden","cheatsheet"],"created":"2025-05-30T01:05:52.000+07:00"}
 ---
 
 
+
+Ôn tập cách mà function hoạt động: `how function works esp stack pointer` 
+[The Stack and ESP in Assembly Language - What happens when you call a procedure?](https://www.youtube.com/watch?v=RU5vUIl1vRs&pp=ygUkaG93IGZ1bmN0aW9uIHdvcmtzIGVzcCBzdGFjayBwb2ludGVy "The Stack and ESP in Assembly Language - What happens when you call a procedure?")
 # Cheetsheet - Prompt 1
 
 
