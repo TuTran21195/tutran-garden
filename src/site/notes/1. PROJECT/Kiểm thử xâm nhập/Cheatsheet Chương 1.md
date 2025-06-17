@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1-project/kiem-thu-xam-nhap/cheatsheet-chuong-1/","title":"KTXN - Cheatsheet chương 1","tags":["tutran-garden","cheatsheet"],"created":"2025-05-25T10:42:33.347+07:00"}
+{"dg-publish":true,"permalink":"/1-project/kiem-thu-xam-nhap/cheatsheet-chuong-1/","title":"KTXN - Cheatsheet chương 1","tags":["tutran-garden","cheatsheet"],"created":"2025-05-30T01:05:51.000+07:00"}
 ---
 
 
@@ -97,7 +97,7 @@ Cheatsheet Chương 1: Khái niệm và Vai trò của Kiểm thử Xâm nhập,
     - **External Testing**: Kiểm thử bên ngoài, phân tích thông tin công khai, liệt kê mạng lưới, hoạt động phân tích an ninh thiết bị. Tập trung hạ tầng máy chủ, phần mềm cơ bản (web server, mail server, firewall, router...).
     - **Internal Testing**: Kiểm thử nội bộ, thực hiện từ các điểm truy cập mạng (đại diện phân đoạn logic, vật lý - ví dụ: lớp và DMZ trong mạng nội bộ, kết nối đối tác). Đánh giá an ninh nội bộ theo phương pháp tương tự bên ngoài nhưng cung cấp cái nhìn đầy đủ hơn.
 - **Các mô hình kiểm thử xâm nhập (Phân loại theo mức độ thông tin)**:
-    - **Black Box Pen-test (Hộp đen)**: Mô phỏng tấn công từ người không có kiến thức về hệ thống. Chỉ gợi ý tên công ty. Cần thu thập thông tin và nghiên cứu nhiều. Mô phỏng quá trình của hacker thực sự. Tốn thời gian và chi phí.
+    - **Black Box Pen-test (Hộp đen)**: Mô phỏng tấn công từ người không có thông tin về hệ thống. Chỉ gợi ý tên công ty. Cần thu thập thông tin và nghiên cứu nhiều. Mô phỏng quá trình của hacker thực sự. Tốn thời gian và chi phí.
     - **White Box Pen-test (Hộp trắng)**: Mô phỏng tấn công từ người có thông tin/kiến thức về hệ thống. Hiểu biết đầy đủ về cơ sở hạ tầng. Mô phỏng hoạt động của nhân viên công ty. Thông tin được cung cấp gồm: cơ sở hạ tầng, loại mạng, triển khai an ninh hiện tại (IP/firewall/IDS), chính sách công ty.
     - **Grey Box Pen-test (Hộp xám)**: Tester có thông tin hạn chế. Thường thực hiện đánh giá an ninh bên trong. Phương pháp bảo mật ứng dụng bằng cách kiểm tra lỗ hổng hacker có thể tìm và khai thác. Thường thực hiện khi kiểm thử hộp đen trên hệ thống bảo vệ tốt và cần thêm kinh nghiệm để xem xét kỹ lưỡng.
 - **Các hình thức kiểm thử xâm nhập (Phân loại theo thông báo)**:
@@ -177,3 +177,36 @@ Cheatsheet Chương 1: Khái niệm và Vai trò của Kiểm thử Xâm nhập,
     - **Các loại shell payload**:
         - **Bind Shells**: Tạo một socket, liên kết cổng, sinh ra shell khi kết nối.
         - **Reverse Shells**: Tạo kết nối đến IP và cổng xác định trước, chuyển shell tới kẻ tấn công.
+
+---
+Dưới đây là mô tả ngắn gọn về mục đích của các công cụ kiểm thử xâm nhập (pentesting) được liệt kê:
+
+1. **Aircrack-ng**: Phân tích và bẻ khóa mật khẩu Wi-Fi (WEP, WPA/WPA2).
+2. **Autopsy**: Phân tích pháp y số, khôi phục dữ liệu và điều tra thiết bị lưu trữ.
+3. **Armitage**: Giao diện đồ họa cho Metasploit, quản lý và tự động hóa tấn công.
+4. **Burp Suite**: Kiểm tra bảo mật ứng dụng web, phát hiện lỗ hổng như XSS, SQLi.
+5. **BeEF**: Khai thác lỗ hổng trình duyệt web, tập trung vào tấn công phía client.
+6. **Cisco Global Exploiter**: Tấn công và kiểm tra lỗ hổng trên thiết bị Cisco.
+7. **Ettercap**: Tấn công man-in-the-middle, nghe lén và thao túng lưu lượng mạng.
+8. **Hashcat**: Bẻ khóa mật khẩu bằng cách tấn công brute-force hoặc dictionary.
+9. **John the Ripper**: Công cụ bẻ khóa mật khẩu, hỗ trợ nhiều định dạng hash.
+10. **Kismet**: Phát hiện và phân tích mạng không dây, giám sát lưu lượng Wi-Fi.
+11. **Lynis**: Kiểm tra bảo mật hệ thống Linux/Unix, đánh giá cấu hình và lỗ hổng.
+12. **Maltego**: Thu thập và phân tích dữ liệu OSINT, lập bản đồ mối quan hệ.
+13. **Metasploit Framework**: Khai thác lỗ hổng, phát triển và thực thi payload.
+14. **Nmap**: Quét mạng, phát hiện host, dịch vụ và hệ điều hành.
+15. **Nikto**: Quét máy chủ web để tìm lỗ hổng và cấu hình sai.
+16. **OWASP ZAP**: Kiểm tra bảo mật ứng dụng web, phát hiện lỗ hổng tự động.
+17. **Social Engineering Tools**: Hỗ trợ tấn công kỹ thuật xã hội, như phishing, giả mạo.
+18. **Sqlmap**: Tự động hóa tấn công SQL injection, khai thác lỗ hổng cơ sở dữ liệu.
+19. **Wireshark**: Phân tích gói tin mạng, giám sát và kiểm tra lưu lượng.
+20. **WPScan**: Quét lỗ hổng trên website WordPress, kiểm tra plugin và theme.
+21. **Nessus**: Quét lỗ hổng toàn diện trên hệ thống, mạng và ứng dụng.
+22. **Zenmap**: Giao diện đồ họa cho Nmap, hỗ trợ quét và phân tích mạng.
+23. **Hydra**: Tấn công brute-force mật khẩu cho nhiều giao thức (SSH, FTP, v.v.).
+24. **Reverse Engineering Toolkit**: Phân tích mã nguồn, tháo gỡ và kiểm tra phần mềm.
+25. **Foremost**: Khôi phục dữ liệu từ thiết bị lưu trữ, tập trung vào pháp y số.
+26. **Volatility**: Phân tích bộ nhớ RAM để điều tra và pháp y số.
+27. **VulnHub**: Cung cấp máy ảo để thực hành kiểm thử xâm nhập và học bảo mật.
+
+Các công cụ này hỗ trợ các giai đoạn khác nhau trong kiểm thử xâm nhập, từ thu thập thông tin, quét lỗ hổng, khai thác, đến phân tích sau khai thác.
