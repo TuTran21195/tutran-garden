@@ -5,6 +5,7 @@
 - biện pháp kiểm soát truy cập dựa trên chính sách được sử dụng cho cho quản lý danh tính: **ABAC**
 - **RBAC** (rule base access control) - dựa trên vai trò →  ứng dụng: **firewall**
 - DAC: kiểm soát truy cập - tạo ra đối tượng có thể cấp quyền truy cập cho người dung khác - Trojan horse
+- MAC: kiểm soát truy cập dựa trên tính nhạy cảm về thông tin.
 - ACL: Mỗi **đối tượng** được gán 1 dsach người dùng kèm quyền truy cập
 
 
@@ -13,7 +14,7 @@
 - HRU:  cho phép thay đổi quyền truy cập của chủ thể lên đối tượng, thêm hoặc xóa các chủ thể và đối tượng
 - Clark-Wilson: tập trung vào việc ngăn chặn người dùng sửa đổi trái phép dữ liệu thông qua một chương trình
 
-- L2TP - có giao thức bảo mật: **PPP và IPsec**
+
 - giao thức PPP, khóa chung được trao đổi để mã hóa và giải mã → thông qua giao thức **CHAP**
 - PGP: 
 	- Trong giao thức PGP chỉ đảm bảo tính <u>xác thực</u>, khóa công khai và khóa riêng được sử dụng là...   **của người gửi.**
@@ -61,7 +62,10 @@
 
 - Đâu **KHÔNG PHẢI** là một dạng tấn công vào WLAN doanh nghiệp: Chèn mã độc
 - Đâu **KHÔNG PHẢI** là một dạng tấn công vào WLAN gia đình: Chặn bắt dữ liệu không dây
+## VPN
 
+- giao thức bảo mật trong VPN: PPTP, IPSec, SSL/TLS
+- - L2TP - có giao thức bảo mật: **PPP và IPsec** (là một giao thức mạng riêng ảo)
 ## Điện toán đám mây
 - Đâu là đặc tính thiết yếu của điện toán đám mây cho phép thay đổi qui mô sử dụng tài nguyên dễ dàng? - Rapid elasticity
 - Đâu là đặc tính thiết yếu của điện toán đám mây cho phép gộp, cấp phát động và cấp phát lại tài nguyên tính toán? - Resource pooling
