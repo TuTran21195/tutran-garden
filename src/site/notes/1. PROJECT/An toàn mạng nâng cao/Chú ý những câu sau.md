@@ -11,15 +11,17 @@
 
 - Biba - Đọc lên ghi xuống
 - Bella - Đọc xuống ghi lên → là một phương pháp triển khai biện pháp kiểm soát truy cập **MAC**.
+	Còn **ACL** → là một phương pháp triển khai biện pháp kiểm soát truy cập **DAC** nhé.
 - HRU:  cho phép **thay đổi quyền truy cập** của chủ thể lên đối tượng, thêm hoặc xóa các chủ thể và đối tượng
 - Clark-Wilson: tập trung vào việc **ngăn chặn người dùng sửa đổi** trái phép dữ liệu thông qua một chương trình
 
-
 - giao thức PPP, khóa chung được trao đổi để mã hóa và giải mã → thông qua giao thức **CHAP**
+
 - PGP: 
 	- xác thực thông điệp bằng: **tạo và kiểm tra chữ ký số**
 	- Trong giao thức PGP chỉ đảm bảo tính <u>xác thực</u>, khóa công khai và khóa riêng được sử dụng là...   **của người gửi.**
 	- Trong giao thức PGP chỉ đảm bảo tính <u>bí mật</u>, khóa công khai và khóa riêng được sử dụng là... **của người nhận**
+	- PGP đảm bảo tính bí mật thông điệp bằng cách sử dụng: Mã hóa khóa **bất đối xứng** sử dụng khóa công khai
 
 
 - AH không cung cấp **tính bí mật**
@@ -37,7 +39,7 @@
 - WPA2: CBC-AES,
 
 
-- PKI: {CA, RA, VA}
+- PKI: {**CA, RA, VA**}
 	- CA: xác minh kiểm tra tính hợp lệ của chứng chỉ số khóa công khai của ng dùng
 	- RA
 	- VA
@@ -50,19 +52,21 @@
 - Chữ ký số
 	- Chữ ký số (sử dụng riêng) thường được sử dụng để đảm bảo thuộc tính nào sau đây của thông điệp truyền đưa:   **Tính toàn vẹn**
 
-
+## Tường lửa
 - Tường lửa:
-	- tính năng của kiểm soát truy cập sử dụng tường lửa:  Kiểm soát dịch vụ và hướng
+	- tính năng của kiểm soát truy cập sử dụng tường lửa:  **Kiểm soát dịch vụ và hướng**
 	- không thể chông lại tấn công hướng dữ liệu
 	- Đâu **KHÔNG PHẢI** là một kiến trúc triển khai phổ biến của tường lửa? - Packet-filtering firewalls
 	- Một Screened host firewall là sự kết hợp của: Một packet-filtering router và một tường lửa riêng, chuyên dụng
 	- Đâu **KHÔNG PHẢI** là một dạng tường lửa lọc gói? - Stateless packet inspection
 
+## Mã hóa đx và bất đx
 - Các loại mã hóa khóa đối xứng: AES, DES, IDEA, Blowfish, Twofish
 - Các loại mã hóa khóa bất đối xứng: RSA, Elgamal, Elliptic curve cryptosystem (ECC)
 
-- Đâu **KHÔNG PHẢI** là một dạng tấn công vào WLAN doanh nghiệp: Chèn mã độc
-- Đâu **KHÔNG PHẢI** là một dạng tấn công vào WLAN gia đình: Chặn bắt dữ liệu không dây
+## WLAN
+- Đâu **KHÔNG PHẢI** là một dạng tấn công vào WLAN <u>doanh nghiệp</u>: Chèn mã độc
+- Đâu **KHÔNG PHẢI** là một dạng tấn công vào WLAN <u>gia đình</u>: Chặn bắt dữ liệu không dây
 ## VPN
 
 - giao thức bảo mật trong VPN: PPTP, IPSec, SSL/TLS
@@ -89,6 +93,6 @@
 
 ## Intranet
 - intranet:
-	- Đâu **KHÔNG PHẢI** là một mối đe dọa bảo mật từ bên ngoài đối với Intranet?  - Rò rỉ dữ liệu
-	- Đâu **KHÔNG PHẢI** là một mối đe dọa bảo mật nội bộ đối với Intranet? - Chặn dữ liệu trong quá trình truyền tải
+	- Đâu **KHÔNG PHẢI** là một mối đe dọa bảo mật <u>từ bên ngoài</u> đối với Intranet?  - Rò rỉ dữ liệu
+	- Đâu **KHÔNG PHẢI** là một mối đe dọa bảo mật <u>nội bộ </u>đối với Intranet? - Chặn dữ liệu trong quá trình truyền tải
 	- Đâu **KHÔNG PHẢI** là một giải pháp bảo mật Intranet? -  Cấm tích hợp của bên thứ ba.
