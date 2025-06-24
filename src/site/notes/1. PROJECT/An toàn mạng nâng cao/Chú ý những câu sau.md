@@ -2,28 +2,29 @@
 {"dg-publish":true,"permalink":"/1-project/an-toan-mang-nang-cao/chu-y-nhung-cau-sau/","title":"Cheatsheet chương 4","tags":["cheatsheet"],"created":"2025-06-24T20:19:09.235+07:00"}
 ---
 
-- biện pháp kiểm soát truy cập dựa trên chính sách được sử dụng cho cho quản lý danh tính: **ABAC**
+- biện pháp kiểm soát truy cập dựa trên chính sách được sử dụng cho cho <u>quản lý danh tính</u>: **ABAC**
 - **RBAC** (rule base access control) - dựa trên vai trò →  ứng dụng: **firewall**
-- DAC: kiểm soát truy cập - tạo ra đối tượng có thể cấp quyền truy cập cho người dung khác - Trojan horse
-- MAC: kiểm soát truy cập dựa trên tính nhạy cảm về thông tin.
+- **DAC**: kiểm soát truy cập - tạo ra đối tượng có thể cấp quyền truy cập cho người dung khác - **Trojan horse**
+- **MAC**: kiểm soát truy cập dựa trên **tính nhạy cảm** về thông tin.
 - ACL: Mỗi **đối tượng** được gán 1 dsach người dùng kèm quyền truy cập
 
 
 - Biba - Đọc lên ghi xuống
 - Bella - Đọc xuống ghi lên → là một phương pháp triển khai biện pháp kiểm soát truy cập **MAC**.
-- HRU:  cho phép thay đổi quyền truy cập của chủ thể lên đối tượng, thêm hoặc xóa các chủ thể và đối tượng
-- Clark-Wilson: tập trung vào việc ngăn chặn người dùng sửa đổi trái phép dữ liệu thông qua một chương trình
+- HRU:  cho phép **thay đổi quyền truy cập** của chủ thể lên đối tượng, thêm hoặc xóa các chủ thể và đối tượng
+- Clark-Wilson: tập trung vào việc **ngăn chặn người dùng sửa đổi** trái phép dữ liệu thông qua một chương trình
 
 
 - giao thức PPP, khóa chung được trao đổi để mã hóa và giải mã → thông qua giao thức **CHAP**
 - PGP: 
+	- xác thực thông điệp bằng: **tạo và kiểm tra chữ ký số**
 	- Trong giao thức PGP chỉ đảm bảo tính <u>xác thực</u>, khóa công khai và khóa riêng được sử dụng là...   **của người gửi.**
 	- Trong giao thức PGP chỉ đảm bảo tính <u>bí mật</u>, khóa công khai và khóa riêng được sử dụng là... **của người nhận**
 
 
 - AH không cung cấp **tính bí mật**
-- xác thực: xác minh tính chân thực của thông tin nhận dạng ng dùng cung cấp 
 - ESP không cung cấp **tính sẵn dùng**
+- xác thực: xác minh tính chân thực của thông tin nhận dạng ng dùng cung cấp 
 - IPsec:
 	- ứng dụng của nó: **VPN**
 	- **DH** Không phải thành phần của IPsec
@@ -67,11 +68,11 @@
 - giao thức bảo mật trong VPN: PPTP, IPSec, SSL/TLS
 - - L2TP - có giao thức bảo mật: **PPP và IPsec** (là một giao thức mạng riêng ảo)
 ## Điện toán đám mây
-- Đâu là đặc tính thiết yếu của điện toán đám mây cho phép thay đổi qui mô sử dụng tài nguyên dễ dàng? - Rapid elasticity
-- Đâu là đặc tính thiết yếu của điện toán đám mây cho phép gộp, cấp phát động và cấp phát lại tài nguyên tính toán? - Resource pooling
-- Đâu **KHÔNG PHẢI** là 1 đặc tính thiết yếu của điện toán đám mây? - Resource queueing
+- Đâu là đặc tính thiết yếu của điện toán đám mây cho phép <u>thay đổi qui mô</u> sử dụng tài nguyên dễ dàng? - **Rapid elasticity**
+- Đâu là đặc tính thiết yếu của điện toán đám mây cho phép <u>gộp, cấp phát động và cấp phát lại</u> tài nguyên tính toán? - **Resource pooling**
+- Đâu **KHÔNG PHẢI** là 1 đặc tính thiết yếu của điện toán đám mây? - **Resource queueing**
 
-- Đâu **KHÔNG PHẢI** là một biện pháp bảo mật dữ liệu và ứng dụng trong điện toán đám mây? - Bảo mật các server
+- Đâu **KHÔNG PHẢI** là một biện pháp bảo mật dữ liệu và ứng dụng trong điện toán đám mây? - **Bảo mật các server**
 
 - Đâu **KHÔNG PHẢI** là một mô hình triển khai điện toán đám mây? - **Hibrid** (vì nó nên là H**y**brid)
 - Đâu KHÔNG PHẢI là một mô hình triển khai điện toán đám mây? **Privacy** (vì nó nên là Private)
