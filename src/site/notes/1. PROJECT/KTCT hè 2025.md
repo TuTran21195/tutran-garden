@@ -195,13 +195,26 @@ Tóm lại, hội nhập kinh tế quốc tế vừa tạo ra những cơ hội 
 ## 1. Điều kiện cần và đủ để sản xuất hàng hóa ra đời và phát triển là sự phân công lao động xã hội.
 
 - **Nhận định:** Sai.
-- **Giải thích:** Sản xuất hàng hóa là **kiểu tổ chức hoạt động kinh tế mà ở đó, những người sản xuất ra sản phẩm nhằm mục đích trao đổi, mua bán** . Sản phẩm của lao động chỉ trở thành hàng hóa khi được đưa ra thị trường với mục đích trao đổi, mua bán. Sự phân công lao động xã hội là **sự phân chia lao động trong xã hội thành các ngành, các lĩnh vực sản xuất khác nhau, tạo nên sự chuyên môn hóa của những người sản xuất thành những ngành, nghề khác nhau**.
+- **Giải thích:** 
 
-Tuy nhiên, sự phân công lao động xã hội **chỉ là điều kiện cần**. Khi có phân công lao động, mỗi người sản xuất chỉ tạo ra một hoặc một vài loại sản phẩm nhất định, nhưng nhu cầu của họ lại cần nhiều loại sản phẩm khác nhau. Điều này **tất yếu tạo ra nhu cầu trao đổi sản phẩm với nhau** .
+- **Sản xuất hàng hóa:** Là kiểu **tổ chức hoạt động kinh tế** mà ở đó, những người sản xuất ra **sản phẩm nhằm mục đích** **trao đổi, mua bán**. Một sản phẩm của lao động chỉ trở thành hàng hóa khi được đưa ra nhằm mục đích trao đổi, mua bán trên thị trường.
+- **Phân công lao động xã hội:** Là sự phân chia lao động trong xã hội thành các ngành, các lĩnh vực sản xuất khác nhau, tạo nên sự chuyên môn hóa của những người sản xuất thành những ngành, nghề khác nhau.
 
-Để sản xuất hàng hóa thực sự ra đời và phát triển, cần thêm **điều kiện đủ** là **sự tách biệt về mặt kinh tế của các chủ thể sản xuất**. Sự tách biệt này làm cho những người sản xuất độc lập với nhau về lợi ích. Trong điều kiện đó, để có thể tiêu dùng sản phẩm của người khác, họ phải thông qua trao đổi, mua bán, tức là sản phẩm phải được trao đổi dưới hình thức hàng hóa . C. Mác nhấn mạnh: **“Chỉ có sản phẩm của những lao động tư nhân độc lập và không phụ thuộc vào nhau mới đối diện với nhau như là những hàng hóa”**. Sự tách biệt này khách quan dựa trên sự tách biệt về sở hữu .
+Sản xuất hàng hóa không xuất hiện đồng thời với sự xuất hiện của xã hội loài người. Nền kinh tế hàng hóa chỉ có thể hình thành và phát triển khi có **hai điều kiện cơ bản** sau đây cùng tồn tại:
 
-**Kết luận:** Chỉ khi **cả hai điều kiện này cùng tồn tại và phát triển**, sản xuất hàng hóa mới có thể ra đời và phát triển. Việc cố tình xóa bỏ nền sản xuất hàng hóa khi hai điều kiện này còn tồn tại sẽ dẫn đến khan hiếm và khủng hoảng trong xã hội.
+1. **Một là, phân công lao động xã hội.**
+    
+    - Khi mỗi người sản xuất chỉ tập trung vào một hoặc một số loại sản phẩm nhất định, nhưng nhu cầu của họ lại cần nhiều loại sản phẩm khác nhau, thì tất yếu những người sản xuất phải trao đổi sản phẩm với nhau để thỏa mãn nhu cầu của mình. Đây là **điều kiện cần** nhưng chưa đủ.
+2. **Hai là, sự tách biệt về mặt kinh tế của các chủ thể sản xuất.**
+    - Sự tách biệt về mặt kinh tế giữa các chủ thể sản xuất làm cho những người sản xuất độc lập với nhau có sự tách biệt về lợi ích.
+    - Trong điều kiện đó, để tiêu dùng sản phẩm của người khác, người này phải thông qua trao đổi, mua bán, tức là phải trao đổi dưới hình thức hàng hóa. C. Mác đã nhấn mạnh rằng: **“Chỉ có sản phẩm của những lao động tư nhân độc lập và không phụ thuộc vào nhau mới đối diện với nhau như là những hàng hóa”**.
+    - Sự tách biệt về mặt kinh tế giữa những người sản xuất xuất hiện khách quan dựa trên sự tách biệt về sở hữu. Xã hội loài người càng phát triển, sự tách biệt về sở hữu càng sâu sắc, và hàng hóa được sản xuất ra càng phong phú.
+    - Sự tách biệt về mặt kinh tế giữa những người sản xuất là **điều kiện đủ** để nền sản xuất hàng hóa ra đời và phát triển.
+    - Vd: xã hội nguyên thủy có phân chia nhóm đi săn bắn, nhóm đi hái lượm, nhưng mà sau đó họ lại chia đều cho nhau nên ko có sự mua bán nào ở đây cả nên cũng không có hàng hóa → dù có phân công lao động xã hội nhưng không tách biệt kinh tế nên là ko có hình thành "sản xuất hàng hóa"
+
+**Kết luận:**
+
+Chỉ khi **cả hai điều kiện trên cùng tồn tại**, nền sản xuất hàng hóa mới có thể ra đời và phát triển. Nếu chỉ có sự phân công lao động xã hội mà không có sự tách biệt về mặt kinh tế (ví dụ, trong một nền kinh tế tự cấp tự túc hoặc công xã nguyên thủy nơi sản phẩm được phân phối chung), thì sản phẩm vẫn là sản phẩm được sản xuất để tiêu dùng nội bộ, chứ không phải để trao đổi dưới dạng hàng hóa. Do đó, việc cố tình xóa bỏ nền sản xuất hàng hóa khi hai điều kiện này vẫn còn tồn tại sẽ làm cho xã hội đi tới chỗ khan hiếm và khủng hoảng. Nền sản xuất hàng hóa có ưu thế tích cực vượt trội so với nền sản xuất tự cấp, tự túc.
 
 ## 2. Mọi hàng hóa đều là sản phẩm của lao động và mọi sản phẩm của lao động đều là hàng hóa.
 
@@ -211,13 +224,14 @@ Câu nhận định **"Mọi hàng hóa đều là sản phẩm của lao độn
 
 - **Hàng hóa:**
 
-- **Hàng** **hóa là sản phẩm của lao động**, có khả năng thỏa mãn một nhu cầu nào đó của con người thông qua trao đổi, mua bán.→ vế 1 **"Mọi hàng hóa đều là sản phẩm của lao động" là đúng.**
+	- **Hàng** **hóa là sản phẩm của lao động**, có khả năng thỏa mãn một nhu cầu nào đó của con người thông qua trao đổi, mua bán.→ vế 1 **"Mọi hàng hóa đều là sản phẩm của lao động" là đúng.**
 
 - **Sản phẩm của lao động:**
 
-- Đây là bất kỳ vật phẩm hay dịch vụ nào được tạo ra từ quá trình hao phí sức lao động của con người.
-- Một sản phẩm của lao động **chỉ trở thành hàng hóa khi nó được đưa ra nhằm mục đích trao đổi, mua bán trên thị trường**.
-- Điểm quan trọng là, không phải mọi sản phẩm của lao động đều nhất thiết được sản xuất ra để trao đổi, mua bán.
+	- Đây là bất kỳ vật phẩm hay dịch vụ nào được tạo ra từ quá trình hao phí sức lao động của con người.
+	- Một sản phẩm của lao động **chỉ trở thành hàng hóa khi nó được đưa ra nhằm mục đích trao đổi, mua bán trên thị trường**.
+	- Điểm quan trọng là, không phải mọi sản phẩm của lao động đều nhất thiết được sản xuất ra để trao đổi, mua bán.
+		- Vd: bà A trồng rau và ko bán mà chỉ giữ lại để ăn thì rau đấy ko p hàng hóa. Nhưng nếu bà ấy đem rau ra chợ để trao đổi mua bán thì rau lúc đấy mới là hàng hóa. 
 
 **→** **Vế 2: "Mọi sản phẩm của lao động đều là hàng hóa" là sai.** Ví dụ, một người tự trồng rau để gia đình mình tiêu dùng, rau đó là sản phẩm của lao động nhưng không phải là hàng hóa vì không được tạo ra để bán.
 
@@ -230,17 +244,19 @@ Câu nhận định **"Mọi hàng hóa đều là sản phẩm của lao độn
 - **Giá cả hàng hóa** là **hình thức biểu hiện bằng tiền của giá trị hàng hóa**. Tiền tệ là một loại hàng hóa đặc biệt, là vật ngang giá chung cho thế giới hàng hóa, và là hình thái biểu hiện của giá trị.
 - Do đó, **400.000 đồng là giá cả** của chiếc áo, chứ không phải giá trị của nó. Giá trị là cơ sở của giá cả, tức là nếu giá trị của hàng hóa lớn thì giá cả có thể cao và ngược lại. Tuy nhiên, giá cả có thể biến động lên xuống so với giá trị thực của nó do nhiều yếu tố khác như giá trị của bản thân tiền tệ hoặc quan hệ cung – cầu trên thị trường.
 
+→  **giá trị** của chiếc áo, về bản chất, là toàn bộ lao động xã hội (bao gồm lao động để sản xuất bông, dệt vải, cắt may, vận chuyển, v.v.) đã hao phí và kết tinh trong chiếc áo đó. Giá trị này là một đại lượng vô hình, chỉ có thể biểu hiện ra bên ngoài thông qua giá cả khi hàng hóa được đem ra trao đổi.
+
 ## 4. Quan hệ cung – cầu là yếu tố quyết định trước hết hình thành nên giá cả của hàng hóa.
 
 - **Nhận định:** Sai.
-- **Giải thích:**
+- **Giải thích:** giá trị của hàng hóa mới là yếu tố quyết định.
 
-- **Giá trị của hàng hóa** là **lao động xã hội của người sản xuất kết tinh trong hàng hóa**. Giá trị là **cơ sở và yếu tố nền tảng** để hàng hóa có giá cả. Một hàng hóa phải có lao động xã hội kết tinh trong nó (tức là có giá trị) thì mới có thể có giá cả trên thị trường.
-- **Quan hệ cung – cầu** là **quy luật kinh tế điều tiết quan hệ giữa cung và cầu** trên thị trường. Quan hệ này **ảnh hưởng trực tiếp đến giá cả** bằng cách làm cho giá cả biến động **xoay quanh giá trị**. Cụ thể:
+- **Giá trị của hàng hóa** là **lao động xã hội của người sản xuất kết tinh trong hàng hóa**. Giá trị mới là **cơ sở và yếu tố nền tảng** để hàng hóa có giá cả. Một hàng hóa phải có lao động xã hội kết tinh trong nó (tức là có giá trị) thì mới có thể có giá cả trên thị trường.
+- **Quan hệ cung – cầu** là **quy luật kinh tế *điều tiết* quan hệ giữa cung và cầu** trên thị trường. Quan hệ này **ảnh hưởng trực tiếp đến giá cả** bằng cách làm cho giá cả biến động **xoay quanh giá trị**. Cụ thể:
 
-- Nếu cung lớn hơn cầu, giá cả có xu hướng thấp hơn giá trị.
-- Nếu cung nhỏ hơn cầu, giá cả có xu hướng cao hơn giá trị.
-- Nếu cung bằng cầu, giá cả có xu hướng bằng giá trị.
+	- Nếu cung lớn hơn cầu, giá cả có xu hướng thấp hơn giá trị.
+	- Nếu cung nhỏ hơn cầu, giá cả có xu hướng cao hơn giá trị.
+	- Nếu cung bằng cầu, giá cả có xu hướng bằng giá trị.
 
 - **Kết luận:** Quan hệ cung – cầu có vai trò quan trọng trong việc **điều tiết và làm biến động giá cả** trên thị trường, nhưng **không phải là yếu tố "quyết định trước hết" việc hình thành giá cả**. Giá trị mới là yếu tố nền tảng quyết định bản chất và lượng cơ bản của giá cả.
 
@@ -255,15 +271,18 @@ Ví dụ:
 
 Giá trị sử dụng: Gạo có giá trị sử dụng cao vì nó là thực phẩm thiết yếu, cung cấp dinh dưỡng và năng lượng cho con người.
 
-Giá trị của gạo: Được quyết định bởi lượng lao động xã hội cần thiết để sản xuất ra nó. Quá trình này bao gồm: trồng lúa, bón phân, thu hoạch, xay xát,….vv
+Giá trị của gạo: Được quyết định bởi lượng lao động xã hội cần thiết để sản xuất ra nó (- nghĩa là toàn bộ lao động xã hội đã hao phí kết tinh trong gạo - bao gồm lao động để trồng lúa, bón phân, thu hoạch, xay xát, vận chuyển,...). 
 
 ## 6. Giá cả của hàng hóa luôn bằng giá trị của nó
 
 Câu nhận định **"Giá cả của hàng hóa luôn bằng giá trị của nó"** là **sai**.
 
-- + **Giá trị** của hàng hóa được xác định bởi lượng lao động xã hội cần thiết để sản xuất ra hàng hóa đó.
+- + **Giá trị** của hàng hóa là **lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa** - giá trị sử dụng(công dụng) và  (phân biệt với *lượng giá trị*: lượng lao động xã hội cần thiết để sản xuất ra hàng hóa đó, nó là sự đo lường của giá trị thông qua thời gian lao động xh cần thiết)
 - + **Giá cả** là biểu hiện bằng tiền của giá trị hàng hóa và chịu ảnh hưởng bởi do tác động của nhiều yếu tố.
 - Tuy nhiên, giá cả trên thị trường **không phải lúc nào cũng bằng giá trị** của nó. Giá cả có thể lên xuống **do tác động của nhiều yếu tố**, đặc biệt là **quan hệ cung – cầu** và giá trị của bản thân tiền tệ.
+- VD:
+	- Giá trị của gạo: Được quyết định bởi lượng lao động xã hội cần thiết để sản xuất ra nó (- nghĩa là toàn bộ lao động xã hội đã hao phí kết tinh trong gạo - bao gồm lao động để trồng lúa, bón phân, thu hoạch, xay xát, vận chuyển,...). 
+	- Thông thường họ bán 3 đồng/cân chẳng hạn, nhưng vd như có dịch bệnh thiên tai, nhiều người cần mua gạo về tích trữ thì nhu cầu cao và họ bán 5đồng/cân chẳng hạn → rõ ràng là giá trị của gạo thì vẫn cần những lao động xã hội cần thiết như thế, nhưng giá cả thì đã đổi do cung cầu → không thể giá cả luôn bằng giá trị được.
 
 ## 7. Tăng năng suất lao động xã hội làm giảm lượng giá trị của một đơn vị hàng hóa (đúng)
 
@@ -278,9 +297,9 @@ Nhận định **"Tăng năng suất lao động xã hội làm giảm lượng 
 Câu nhận định **"8. Để thu được giá trị thặng dư từ người lao động thì thời gian lao động trong ngày phải lớn hơn thời gian lao động tất yếu"** là **đúng**.
 
 - **Giá trị thặng dư** là **bộ phận giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra**. Nó là kết quả của lao động không công của công nhân cho nhà tư bản.
-- **Thời gian lao động tất yếu****:** Là một phần của thời gian lao động trong ngày, trong đó người lao động hao phí sức lao động của mình **để bù đắp được giá trị hàng hóa sức lao động** (tức là giá trị mà họ cần để duy trì cuộc sống của mình và gia đình họ - thông qua tiền lương).
+-  **Thời gian lao động trong ngày**: Là tổng thời gian lao động mà người lao động phải thực hiện trong một ngày làm việc theo thỏa thuận. Về cơ bản, nó bao gồm thời gian lao động tất yếu và thời gian lao động thặng dư.
+- **Thời gian lao động tất yếu**:  tgian lao dộng mà người lao động hao phí sức lao động của mình **để bù đắp được giá trị hàng hóa sức lao động** (tức là giá trị mà họ cần để duy trì cuộc sống của mình và gia đình họ - thông qua tiền lương).
 - **Thời gian lao động thặng dư****:** Là phần thời gian lao động còn lại trong ngày, **ngoài thời gian lao động tất yếu**, mà người lao động phải làm việc dưới sự quản lý của người mua hàng hóa sức lao động (nhà tư bản), và sản phẩm làm ra thuộc sở hữu của nhà tư bản.
-- **Thời gian lao động trong ngày**: Là tổng thời gian lao động mà người lao động phải thực hiện trong một ngày làm việc theo thỏa thuận. Về cơ bản, nó bao gồm thời gian lao động tất yếu và thời gian lao động thặng dư.
 
 **2.** **Phân tích****:**
 
@@ -292,9 +311,9 @@ Câu nhận định **"8. Để thu được giá trị thặng dư từ ngườ
 
 Theo quan điểm của KTCT Mác-Lênin, nhận định trên là sai, vì
 
-·       Tiền công danh nghĩa là số tiền mà người lao động nhận được khi bán sức lao động của mình. Nó thể hiện giá trị tuyệt đối của thu nhập mà công nhân nhận được.
+·       Tiền công danh nghĩa là số tiền mà người lao động nhận được khi bán sức lao động của mình. **Nó thể hiện giá trị tuyệt đối** của thu nhập mà công nhân nhận được.
 
-·       Tiền công thực tế là số lượng hàng hoá tiêu dùng va dịch vụ mà người lao động mua được bằng tiền công danh nghĩa của mình
+·       Tiền công thực tế **là số lượng hàng hoá tiêu dùng va dịch vụ** mà người lao động **mua được bằng tiền công danh nghĩa** của mình
 
 Theo KTCT Mác-Lênin, tiền công danh nghĩa không phải là chỉ số chính xác để
 
@@ -332,17 +351,22 @@ giảm.
 
 Nhận định **"Chủ tư bản trả tiền công cho người lao động đúng với giá cả của sức lao động thì sẽ không thể thu được giá trị thặng dư****”** là **sai**.
 
+·        **Tiền công là _giá cả_ của hàng hóa sức lao động**: Lao động của người làm thuê đã tạo ra giá trị mới, và một phần của giá trị mới này được dùng để tự trả cho tiền công của họ.
+
 - **Sức lao động là hàng hóa đặc biệt:** Sức lao động là khả năng lao động của người công nhân, được bán cho chủ tư bản dưới dạng một loại hàng hóa (khi người lao động không có đủ tư liệu sản xuất cần thiết để tự tạo ra spham để bán, nên họ buộc phải bán sức lao động của mình)
 
-·        **“****Tiền công là _giá cả_ của hàng hóa sức lao động****”****:** Lao động của người làm thuê đã tạo ra giá trị mới, và một phần của giá trị mới này được dùng để tự trả cho tiền công của họ.
+
 
 - **Giá trị của hàng hóa sức lao động:** Giá trị của sức lao động được xác định dưa trên chi phí cần thiết để duy trì và tái sản xuất sức lao động(tức là các chi phí sinh hoạt của người công nhân và gia đình họ).
-- **Giá trị sử dụng đặc biệt của hàng hóa sức lao động:** Điểm then chốt là giá trị sử dụng của hàng hóa sức lao động có một **"tính năng đặc biệt mà không hàng hóa thông thường nào có được, đó là trong khi sử dụng nó, không những giá trị của nó được bảo tồn mà còn tạo ra được lượng giá trị lớn hơn"**. Khả năng tạo ra một lượng giá trị lớn hơn chính giá trị của bản thân nó là "chìa khóa" chỉ rõ nguồn gốc của giá trị thặng dư.
+- **Giá trị sử dụng đặc biệt của hàng hóa sức lao động:** Điểm then chốt là **giá trị sử dụng** của hàng hóa sức lao động có một **"tính năng đặc biệt mà không hàng hóa thông thường nào có được, đó là trong khi sử dụng nó, không những giá trị của nó được bảo tồn mà còn tạo ra được lượng giá trị lớn hơn"**. Khả năng tạo ra một lượng giá trị lớn hơn chính giá trị của bản thân nó là "chìa khóa" chỉ rõ nguồn gốc của giá trị thặng dư.
 - **Sự hình thành giá trị thặng dư ngay cả khi trao đổi ngang giá:**
 
 - Trong một ngày lao động, người công nhân sẽ làm việc trong tổng thời gian đã được nhà tư bản mua (ví dụ 8 giờ).
 - Một phần của thời gian lao động này là **"thời gian lao động tất yếu"**, là khoảng thời gian người lao động tạo ra lượng giá trị đủ để bù đắp giá trị của sức lao động (tức là đủ để trả tiền công của họ theo nguyên tắc ngang giá).
 - Phần thời gian còn lại, ngoài thời gian lao động tất yếu, là **"thời gian lao động thặng dư"**. Trong khoảng thời gian này, người lao động vẫn tiếp tục tạo ra giá trị mới, nhưng giá trị này **"dôi ra ngoài giá trị sức lao động"** và không được trả công. Phần giá trị dôi ra này chính là **giá trị thặng dư** (m).
+
+*Nhưng mà một yếu tố không thể quên để hình thành được giá trị thặng dư đó là trình độ sản xuất phải đạt đến một trình độ nhất định để kể cả người chủ có trả giá cả đã thỏa thuận thì vẫn thu được giá trị mới dôi ra được.*
+Chính nhờ sự phát triển của lực lượng sản xuất và nâng cao năng suất lao động mà giá trị sức lao động trở nên rẻ hơn (vì tư liệu sinh hoạt cần thiết được sản xuất với ít lao động hơn), giúp rút ngắn thời gian lao động tất yếu. Từ đó, dù tiền công được trả "đúng với giá cả của sức lao động" (theo nguyên tắc ngang giá trong lý thuyết), nhà tư bản vẫn có thể thu được giá trị thặng dư do khả năng đặc biệt của sức lao động là tạo ra giá trị mới lớn hơn giá trị bản thân nó trong quá trình sử dụng
 
 Ví dụ (trong giáo trình): Nhà tư bản bỏ ra 15 USD để mua sức lao động của công nhân sử dụng trong 8 giờ. Trong 4 giờ đầu (thời gian lao động tất yếu), công nhân tạo ra giá trị mới 15 USD, đủ bù đắp giá trị sức lao động. Tuy nhiên, công nhân vẫn tiếp tục làm việc 4 giờ nữa (thời gian lao động thặng dư) và tạo ra thêm 15 USD giá trị mới, mà phần này nhà tư bản không phải trả thêm tiền công. Khoản 15 USD này chính là giá trị thặng dư.
 
@@ -353,8 +377,8 @@ Tóm lại, **việc chủ tư bản trả tiền công cho người lao động
 Nhận định **"Tiền công thực chất là giá trị hàng hóa sức lao động"** là **sai**.
 
 - **Tiền công** là **giá cả của hàng hóa sức lao động**. Nó là khoản tiền mà người lao động nhận được khi bán sức lao động của mình.
-- **Giá trị hàng hóa sức lao động** là **lượng lao động xã hội cần thiết để sản xuất và tái sản xuất ra sức lao động**. Giá trị này được xác định thông qua giá trị của các tư liệu sinh hoạt cần thiết (vật chất và tinh thần) để duy trì người lao động, phí tổn đào tạo, và và gia đình họ.
-- Mặc dù tiền công được xác định dựa trên giá trị sức lao động, nhưng chúng không phải là một. Giá cả có thể biến động (lên hoặc xuống) so với giá trị do các yếu tố thị trường như cung – cầu hoặc giá trị của tiền.
+- **Giá trị hàng hóa sức lao động** là **lượng lao động xã hội cần thiết để sản xuất và tái sản xuất ra sức lao động**. Giá trị này được xác định thông qua giá trị của các tư liệu sinh hoạt cần thiết (vật chất và tinh thần) để duy trì người lao động, phí tổn đào tạo, và và gia đình họ. - nghĩa là  được xác định dưa trên chi phí cần thiết để duy trì và tái sản xuất sức lao động(tức là các chi phí sinh hoạt của người công nhân và gia đình họ).
+- Mặc dù tiền công được xác định dựa trên giá trị sức lao động, nhưng nó không phản ánh hết được giá trị của sức lao động, tiền công chỉ là giá cả của sức lao động thôi. Giá cả có thể biến động (lên hoặc xuống) so với giá trị do các yếu tố thị trường như cung – cầu hoặc giá trị của tiền.
 - **Thực tế:** Trên thị trường, rất khó để tiền công phản ánh đúng lượng giá trị đầy đủ của sức lao động.
 - VD: người lao động cần 10tr/tháng mới đủ để tái tạo sức lao động của mình (ăn ở, chữa bệnh, nuôi con,…) – đây là giá trị của hàng hóa sức lao động. Nhưng do thị trường đang có nhiều ng tìm việc hơn so với số việc làm (cung > cầu)  → chủ thuê chỉ trả 8tr/tháng thôi → tiền công 8tr không bằng với giá trị của hàng hóa sức lao động là 10tr.
 - **Kết luận:** Tiền công là giá cả, tức là hình thức bên ngoài của giá trị sức lao động, chứ không phải là bản thân giá trị đó.
