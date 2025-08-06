@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/1-project/ktct-he-2025/","created":"2025-08-06T14:36:22.432+07:00"}
 ---
 
+https://www.studocu.vn/vn/document/hoc-vien-cong-nghe-buu-chinh-vien-thong/kinh-te-chinh-tri-mac-le-nin/dc-ktct-de-cg-kinh-te-chinh-tri/109389904
 ## C 1: Hãy phân tích những đặc trưng của kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam và lấy ví dụ minh họa?
 
 Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là một mô hình kinh tế thị trường đặc thù, phù hợp với điều kiện lịch sử, trình độ phát triển và hoàn cảnh chính trị - xã hội của Việt Nam. Mô hình này kết hợp những ưu điểm của kinh tế thị trường hiện đại với bản chất ưu việt của chủ nghĩa xã hội, hướng tới một nền kinh tế văn minh.
