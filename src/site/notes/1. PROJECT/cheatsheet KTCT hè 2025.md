@@ -26,7 +26,7 @@ Mô hình này có 5 đặc trưng cơ bản:
     - Nhà nước quản lý và thực hành cơ chế quản lý là **Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân dưới sự lãnh đạo của Đảng Cộng sản Việt Nam**.
     - Đảng lãnh đạo thông qua cương lĩnh, đường lối phát triển kinh tế - xã hội và các chủ trương, quyết sách lớn.
     - Nhà nước quản lý bằng **pháp luật, chiến lược, kế hoạch, quy hoạch và các công cụ kinh tế** (tôn trọng nguyên tắc thị trường).
-    - Nhà nước khắc phục những khuyết tật của thị trường, đảm bảo công bằng xã hội và ổn định kinh tế vĩ mô.
+    - Nhà nước **khắc phục những khuyết tật** của thị trường, đảm bảo công bằng xã hội và ổn định kinh tế vĩ mô.
     - _Ví dụ minh họa_: **Quốc hội ban hành Luật Đầu tư, Luật Doanh nghiệp** để tạo môi trường pháp lý bình đẳng. **Ngân hàng Nhà nước điều chỉnh lãi suất cơ bản hoặc tỷ giá hối đoái** để ổn định kinh tế vĩ mô.
 4. **Về quan hệ phân phối**:
     
