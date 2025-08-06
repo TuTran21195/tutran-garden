@@ -356,7 +356,6 @@ Nhận định **"Chủ tư bản trả tiền công cho người lao động đ
 - **Sức lao động là hàng hóa đặc biệt:** Sức lao động là khả năng lao động của người công nhân, được bán cho chủ tư bản dưới dạng một loại hàng hóa (khi người lao động không có đủ tư liệu sản xuất cần thiết để tự tạo ra spham để bán, nên họ buộc phải bán sức lao động của mình)
 
 
-
 - **Giá trị của hàng hóa sức lao động:** Giá trị của sức lao động được xác định dưa trên chi phí cần thiết để duy trì và tái sản xuất sức lao động(tức là các chi phí sinh hoạt của người công nhân và gia đình họ).
 - **Giá trị sử dụng đặc biệt của hàng hóa sức lao động:** Điểm then chốt là **giá trị sử dụng** của hàng hóa sức lao động có một **"tính năng đặc biệt mà không hàng hóa thông thường nào có được, đó là trong khi sử dụng nó, không những giá trị của nó được bảo tồn mà còn tạo ra được lượng giá trị lớn hơn"**. Khả năng tạo ra một lượng giá trị lớn hơn chính giá trị của bản thân nó là "chìa khóa" chỉ rõ nguồn gốc của giá trị thặng dư.
 - **Sự hình thành giá trị thặng dư ngay cả khi trao đổi ngang giá:**
@@ -371,6 +370,12 @@ Chính nhờ sự phát triển của lực lượng sản xuất và nâng cao 
 Ví dụ (trong giáo trình): Nhà tư bản bỏ ra 15 USD để mua sức lao động của công nhân sử dụng trong 8 giờ. Trong 4 giờ đầu (thời gian lao động tất yếu), công nhân tạo ra giá trị mới 15 USD, đủ bù đắp giá trị sức lao động. Tuy nhiên, công nhân vẫn tiếp tục làm việc 4 giờ nữa (thời gian lao động thặng dư) và tạo ra thêm 15 USD giá trị mới, mà phần này nhà tư bản không phải trả thêm tiền công. Khoản 15 USD này chính là giá trị thặng dư.
 
 Tóm lại, **việc chủ tư bản trả tiền công cho người lao động đúng với giá cả của sức lao động (theo nguyên tắc ngang giá) không ngăn cản việc thu được giá trị thặng dư**. Điều này là do bản chất đặc biệt của hàng hóa sức lao động là có khả năng tạo ra một lượng giá trị mới lớn hơn giá trị của chính nó trong quá trình sử dụng.
+
+
+> [!quote] 
+> Vì công nhân bán sức lao động và nhận được giá trị sức lao động hay tiền công trong thỏa thuận. Sau đó sức lao động được tiêu dùng để tạo ra giá trị mới lớn hơn giá trị sức lao động, khoảng chênh lệch giữa giá trị mới và giá trị sức lao động chính là giá trị thặng dư. Mục đích của nhà tư bản là làm thế nào để đạt được nhiều giá trị thặng dư hơn, nên mặc dù nhà tư bản trả công đúng giá trị sức lao động thì họ vẫn sẽ tìm nhiều cách để chiếm lấy nhiều giá trị thặng dư như tăng công suất lao động, tăng giờ lao động của công nhân lên, thay đổi hình thức trả tiền lương...
+>
+Kết luận: Nếu nhà tư bản trả đúng giá trị sức lao động cho công nhân thì nhà tư bản vẫn có giá trị thặng dư.
 
 ##  12. Tiền công thực chất là giá trị hàng hóa sức lao động.
 
