@@ -35,3 +35,635 @@ body {
     border-radius: 4px;
     }
 }
+
+// =================================================================================================
+// =================================================================================================
+// =================================================================================================
+// ======================================CORNELL CALLOUT LAYOUT=====================================
+// =================================================================================================
+// =================================================================================================
+// =================================================================================================
+
+
+/* ===== Cornell Section - Universal Fix ===== */
+:root {
+  --cornell-gap-row: .9rem;
+  --cornell-gap-col: .6rem;
+  --cornell-radius: 16px;
+  --cornell-border: var(--background-modifier-border);
+  --cornell-muted: var(--text-muted);
+  --cornell-accent: var(--interactive-accent);
+  --cornell-bg: var(--background-primary);
+  --cornell-card: color-mix(in srgb, var(--background-primary) 94%, var(--background-secondary) 6%);
+  --cornell-cue-bg: color-mix(in srgb, var(--interactive-accent) 12%, var(--background-primary) 88%);
+  --cornell-notes-bg: var(--cornell-card);
+  --cornell-summary-bg: color-mix(in srgb, var(--background-primary) 88%, var(--background-secondary) 12%);
+  --cornell-line: color-mix(in srgb, var(--text-muted) 15%, transparent);
+  --cornell-glow: color-mix(in srgb, var(--interactive-accent) 25%, transparent);
+  --cornell-shadow-light: 0 4px 20px color-mix(in srgb, var(--interactive-accent) 8%, transparent);
+  --cornell-shadow-heavy: 0 8px 32px color-mix(in srgb, black 15%, transparent);
+  
+  /* Distinct colors for each section */
+  --cornell-cue-color: #e74c3c;      /* Red for Questions */
+  --cornell-notes-color: #3498db;    /* Blue for Notes */
+  --cornell-summary-color: #2ecc71;  /* Green for Summary */
+}
+
+/* ULTRA HIGH SPECIFICITY - Works in ALL Obsidian modes */
+body .app-container .workspace .workspace-leaf .workspace-leaf-content .view-content .markdown-reading-view .cornell-section,
+body .app-container .workspace .workspace-leaf .workspace-leaf-content .view-content .markdown-preview-view .cornell-section,
+body .app-container .workspace .workspace-leaf .workspace-leaf-content .view-content .markdown-source-view .cornell-section,
+body .workspace .cornell-section,
+body .cornell-section,
+.cornell-section {
+  display: grid !important;
+  grid-template-columns: 3fr 7fr !important;
+  grid-template-areas:
+    "cue notes"
+    "summary summary" !important;
+  gap: var(--cornell-gap-row) var(--cornell-gap-col) !important;
+  margin: 1.5rem 0 !important;
+  padding: 1.2rem 0 !important;
+  border: 1px solid var(--cornell-border) !important;
+  border-radius: var(--cornell-radius) !important;
+  background: var(--cornell-bg) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-sizing: border-box !important;
+}
+
+/* Background gradient */
+body .cornell-section::before,
+.cornell-section::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important; 
+  left: 0 !important; 
+  right: 0 !important; 
+  bottom: 0 !important;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--interactive-accent) 3%, transparent) 0%,
+    transparent 50%,
+    color-mix(in srgb, var(--interactive-accent) 2%, transparent) 100%
+  ) !important;
+  pointer-events: none !important;
+  z-index: 0 !important;
+}
+
+/* Variants */
+.cornell--pretty {
+  background: var(--cornell-card) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-border) 60%, transparent) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.cornell--shadow {
+  box-shadow: var(--cornell-shadow-heavy) !important;
+}
+
+.cornell--glow {
+  box-shadow: 
+    0 0 0 1px color-mix(in srgb, var(--interactive-accent) 20%, transparent),
+    0 0 20px color-mix(in srgb, var(--interactive-accent) 15%, transparent),
+    var(--cornell-shadow-light) !important;
+}
+
+.cornell--premium {
+  background: linear-gradient(
+    145deg,
+    var(--cornell-card) 0%,
+    color-mix(in srgb, var(--cornell-card) 95%, var(--interactive-accent) 5%) 100%
+  ) !important;
+  border: 1px solid color-mix(in srgb, var(--interactive-accent) 15%, transparent) !important;
+  box-shadow: var(--cornell-shadow-heavy) !important;
+}
+
+/* Areas with ultra high specificity */
+body .workspace .cornell-cue,
+body .cornell-cue,
+.cornell-cue {
+  grid-area: cue !important;
+  background: var(--cornell-cue-bg) !important;
+  border-radius: 14px !important;
+  padding: 1rem !important;
+  position: relative !important;
+  z-index: 1 !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-border) 40%, transparent) !important;
+  box-sizing: border-box !important;
+}
+
+body .workspace .cornell-notes,
+body .cornell-notes,
+.cornell-notes {
+  grid-area: notes !important;
+  background: var(--cornell-notes-bg) !important;
+  border-radius: 14px !important;
+  padding: 1rem !important;
+  position: relative !important;
+  z-index: 1 !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-border) 40%, transparent) !important;
+  box-sizing: border-box !important;
+}
+
+body .workspace .cornell-summary,
+body .cornell-summary,
+.cornell-summary {
+  grid-area: summary !important;
+  background: var(--cornell-summary-bg) !important;
+  border-radius: 12px !important;
+  padding: 0.9rem !important;
+  border-top: 2px dashed color-mix(in srgb, var(--cornell-border) 60%, transparent) !important;
+  margin-top: 0.3rem !important;
+  position: relative !important;
+  z-index: 1 !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-border) 40%, transparent) !important;
+  box-sizing: border-box !important;
+}
+
+/* Headings */
+.cornell-cue h3,
+.cornell-notes h3,
+.cornell-summary h3 {
+  margin: 0 0 .7rem 0 !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  letter-spacing: .3px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: .5rem !important;
+  padding: .35rem .7rem !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--cornell-accent) 18%, var(--cornell-bg)) 0%,
+    color-mix(in srgb, var(--cornell-accent) 12%, var(--cornell-bg)) 100%
+  ) !important;
+  color: color-mix(in srgb, var(--text-normal) 90%, var(--text-muted)) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-accent) 30%, transparent) !important;
+  box-shadow: 
+    0 2px 8px color-mix(in srgb, var(--cornell-accent) 10%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 15%, transparent) !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Text formatting */
+.cornell-cue p,
+.cornell-notes p,
+.cornell-summary p {
+  margin: 0.5rem 0 !important;
+  line-height: 1.6 !important;
+}
+
+.cornell-cue li,
+.cornell-notes li,
+.cornell-summary li {
+  margin: 0.4rem 0 !important;
+  line-height: 1.5 !important;
+}
+
+/* Line breaks fix */
+.cornell-cue,
+.cornell-notes,
+.cornell-summary {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* Summary hint */
+.cornell-summary::before {
+  content: "💡 Tóm tắt 2–3 câu • trọng tâm • từ khóa" !important;
+  display: block !important;
+  font-size: .8rem !important;
+  font-weight: 500 !important;
+  color: color-mix(in srgb, var(--cornell-muted) 65%, transparent) !important;
+  margin-bottom: .4rem !important;
+  padding: .2rem .4rem !important;
+  background: color-mix(in srgb, var(--cornell-muted) 8%, transparent) !important;
+  border-radius: 6px !important;
+  border-left: 3px solid color-mix(in srgb, var(--cornell-accent) 30%, transparent) !important;
+}
+
+/* Cue line */
+.cornell-cue::after {
+  content: "" !important;
+  position: absolute !important;
+  top: .8rem !important; 
+  bottom: .8rem !important; 
+  right: .8rem !important;
+  width: 3px !important;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--cornell-accent) 35%, transparent) 0%,
+    color-mix(in srgb, var(--cornell-accent) 20%, transparent) 50%,
+    color-mix(in srgb, var(--cornell-accent) 35%, transparent) 100%
+  ) !important;
+  border-radius: 3px !important;
+  box-shadow: 0 0 8px color-mix(in srgb, var(--cornell-accent) 20%, transparent) !important;
+}
+
+/* Ruled paper effect */
+.cornell--ruled .cornell-notes {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 26px,
+      var(--cornell-line) 27px
+    ),
+    var(--cornell-notes-bg) !important;
+}
+
+/* Hover effects */
+.cornell-section:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 
+    0 12px 40px color-mix(in srgb, black 18%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--cornell-accent) 15%, transparent) !important;
+}
+
+.cornell-cue:hover,
+.cornell-notes:hover,
+.cornell-summary:hover {
+  transform: translateY(-1px) scale(1.01) !important;
+  box-shadow: 
+    0 8px 25px color-mix(in srgb, var(--cornell-accent) 12%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--cornell-accent) 25%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 10%, transparent) !important;
+}
+
+/* Responsive */
+@media (max-width: 780px) {
+  body .cornell-section,
+  .cornell-section {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "cue"
+      "notes"
+      "summary" !important;
+  }
+  .cornell-cue::after { 
+    display: none !important; 
+  }
+}
+
+/* Text styling */
+.cornell-cue strong, .cornell-notes strong, .cornell-summary strong {
+  font-weight: 700 !important;
+  color: color-mix(in srgb, var(--text-normal) 98%, var(--cornell-accent)) !important;
+}
+
+.cornell-cue em, .cornell-notes em, .cornell-summary em {
+  font-style: italic !important;
+  color: color-mix(in srgb, var(--text-normal) 95%, var(--cornell-accent)) !important;
+}
+
+/* Code styling */
+.cornell-cue code, .cornell-notes code, .cornell-summary code {
+  background: color-mix(in srgb, var(--cornell-accent) 10%, var(--background-primary)) !important;
+  color: color-mix(in srgb, var(--text-normal) 90%, var(--cornell-accent)) !important;
+  padding: 0.1rem 0.3rem !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-accent) 15%, transparent) !important;
+}
+
+/* Links */
+.cornell-cue a, .cornell-notes a, .cornell-summary a {
+  color: color-mix(in srgb, var(--cornell-accent) 85%, var(--text-normal)) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--cornell-accent) 30%, transparent) !important;
+  transition: all 0.2s ease !important;
+}
+
+.cornell-cue a:hover, .cornell-notes a:hover, .cornell-summary a:hover {
+  color: var(--cornell-accent) !important;
+  border-bottom-color: var(--cornell-accent) !important;
+  background: color-mix(in srgb, var(--cornell-accent) 8%, transparent) !important;
+  padding: 0 0.2rem !important;
+  border-radius: 3px !important;
+}
+
+/* ===== OBSIDIAN CALLOUT SUPPORT ===== */
+/* Cornell using native Obsidian callouts */
+.callout[data-callout="cornell"] {
+  display: grid !important;
+  grid-template-columns: 3fr 7fr !important;
+  grid-template-areas:
+    "cue notes"
+    "summary summary" !important;
+  gap: var(--cornell-gap-row) var(--cornell-gap-col) !important;
+  margin: 1.5rem 0 !important;
+  padding: 1.2rem !important;
+  border: 1px solid var(--cornell-border) !important;
+  border-radius: var(--cornell-radius) !important;
+  background: var(--cornell-bg) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.callout[data-callout="cornell"] .callout-title {
+  display: none !important;
+}
+
+.callout[data-callout="cornell"] .callout-content {
+  display: contents !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Cornell sections in callouts with distinct colors */
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1) {
+  grid-area: cue !important;
+  background: color-mix(in srgb, var(--cornell-cue-color) 8%, var(--background-primary) 92%) !important;
+  border-radius: 14px !important;
+  padding: 1rem 1rem 1rem .5rem !important;
+  margin: 0 !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-cue-color) 25%, transparent) !important;
+  border-top: 2px dashed color-mix(in srgb, var(--cornell-cue-color) 40%, transparent) !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2) {
+  grid-area: notes !important;
+  background: color-mix(in srgb, var(--cornell-notes-color) 8%, var(--background-primary) 92%) !important;
+  border-radius: 14px !important;
+  padding: 1rem !important;
+  margin: 0 !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-notes-color) 25%, transparent) !important;
+  border-top: 2px dashed color-mix(in srgb, var(--cornell-notes-color) 40%, transparent) !important;
+  position: relative !important;
+  z-index: 0 !important;
+}
+
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3) {
+  grid-area: summary !important;
+  background: color-mix(in srgb, var(--cornell-summary-color) 8%, var(--background-primary) 92%) !important;
+  border-radius: 12px !important;
+  padding: 0.9rem !important;
+  margin: 0.3rem 0 0 0 !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-summary-color) 25%, transparent) !important;
+  border-top: 2px dashed color-mix(in srgb, var(--cornell-summary-color) 40%, transparent) !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Section headers with distinct colors */
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1)::before {
+  content: "Cue / Questions" !important;
+  display: block !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.7rem !important;
+  padding: .4rem .8rem !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--cornell-cue-color) 18%, var(--cornell-bg)) 0%,
+    color-mix(in srgb, var(--cornell-cue-color) 12%, var(--cornell-bg)) 100%
+  ) !important;
+  color: color-mix(in srgb, var(--cornell-cue-color) 85%, var(--text-normal)) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-cue-color) 30%, transparent) !important;
+  box-shadow: 
+    0 2px 8px color-mix(in srgb, var(--cornell-cue-color) 15%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 15%, transparent) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: .5rem !important;
+}
+
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2)::before {
+  content: "Notes" !important;
+  display: block !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.7rem !important;
+  padding: .4rem .8rem !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--cornell-notes-color) 18%, var(--cornell-bg)) 0%,
+    color-mix(in srgb, var(--cornell-notes-color) 12%, var(--cornell-bg)) 100%
+  ) !important;
+  color: color-mix(in srgb, var(--cornell-notes-color) 85%, var(--text-normal)) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-notes-color) 30%, transparent) !important;
+  box-shadow: 
+    0 2px 8px color-mix(in srgb, var(--cornell-notes-color) 15%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 15%, transparent) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: .5rem !important;
+}
+
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3)::before {
+  content: "Summary" !important;
+  display: block !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.7rem !important;
+  padding: .4rem .8rem !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--cornell-summary-color) 18%, var(--cornell-bg)) 0%,
+    color-mix(in srgb, var(--cornell-summary-color) 12%, var(--cornell-bg)) 100%
+  ) !important;
+  color: color-mix(in srgb, var(--cornell-summary-color) 85%, var(--text-normal)) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-summary-color) 30%, transparent) !important;
+  box-shadow: 
+    0 2px 8px color-mix(in srgb, var(--cornell-summary-color) 15%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 15%, transparent) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: .5rem !important;
+}
+
+/* Cue line for callout with custom color */
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1)::after {
+  content: "" !important;
+  position: absolute !important;
+  top: .8rem !important; 
+  bottom: .8rem !important; 
+  right: .3rem !important;
+  width: 3px !important;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--cornell-cue-color) 60%, transparent) 0%,
+    color-mix(in srgb, var(--cornell-cue-color) 35%, transparent) 50%,
+    color-mix(in srgb, var(--cornell-cue-color) 60%, transparent) 100%
+  ) !important;
+  border-radius: 3px !important;
+  box-shadow: 0 0 8px color-mix(in srgb, var(--cornell-cue-color) 25%, transparent) !important;
+}
+
+/* Cue hint for callout */
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1) p:first-child::before {
+  content: "Keywords • câu hỏi ngắn • trigger points" !important;
+  display: block !important;
+  font-size: .8rem !important;
+  font-weight: 600 !important;
+  color: color-mix(in srgb, var(--cornell-muted) 65%, transparent) !important;
+  margin-bottom: .4rem !important;
+  padding: .15rem .35rem !important;
+  background: color-mix(in srgb, var(--cornell-muted) 6%, transparent) !important;
+  border-radius: 4px !important;
+  border-left: 2px solid color-mix(in srgb, var(--cornell-accent) 25%, transparent) !important;
+}
+
+/* Notes hint for callout */
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2) p:first-child::before {
+  content: "Key points • bullet format • not full transcript" !important;
+  display: block !important;
+  font-size: .8rem !important;
+  font-weight: 600 !important;
+  color: color-mix(in srgb, var(--cornell-muted) 65%, transparent) !important;
+  margin-bottom: .4rem !important;
+  padding: .15rem .35rem !important;
+  background: color-mix(in srgb, var(--cornell-muted) 6%, transparent) !important;
+  border-radius: 4px !important;
+  border-left: 2px solid color-mix(in srgb, var(--cornell-accent) 25%, transparent) !important;
+}
+
+/* Summary hint for callout */
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3) p:first-child::before {
+  content: "Tóm tắt 2–3 câu • trọng tâm (essence) • big picture" !important;
+  display: block !important;
+  font-size: .8rem !important;
+  font-weight: 600 !important;
+  color: color-mix(in srgb, var(--cornell-muted) 65%, transparent) !important;
+  margin-bottom: .4rem !important;
+  padding: .15rem .35rem !important;
+  background: color-mix(in srgb, var(--cornell-muted) 6%, transparent) !important;
+  border-radius: 4px !important;
+  border-left: 2px solid color-mix(in srgb, var(--cornell-accent) 25%, transparent) !important;
+}
+
+/* Fix tables and complex content in callouts - AGGRESSIVE OVERRIDE */
+.callout[data-callout="cornell"] table,
+.callout[data-callout="cornell"] .callout-content table,
+.callout[data-callout="cornell"] .callout-content > blockquote table,
+.callout[data-callout="cornell"] .callout-content > blockquote > table {
+  width: 100% !important;
+  margin: 0.8rem 0 !important;
+  border-collapse: collapse !important;
+  font-size: 0.9rem !important;
+  display: table !important;
+  grid-column: unset !important;
+  grid-row: unset !important;
+  grid-area: unset !important;
+}
+
+.callout[data-callout="cornell"] th,
+.callout[data-callout="cornell"] td,
+.callout[data-callout="cornell"] .callout-content th,
+.callout[data-callout="cornell"] .callout-content td,
+.callout[data-callout="cornell"] .callout-content > blockquote th,
+.callout[data-callout="cornell"] .callout-content > blockquote td {
+  padding: 0.4rem 0.6rem !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-border) 50%, transparent) !important;
+  text-align: left !important;
+  display: table-cell !important;
+  grid-column: unset !important;
+  grid-row: unset !important;
+  grid-area: unset !important;
+}
+
+.callout[data-callout="cornell"] th,
+.callout[data-callout="cornell"] .callout-content th,
+.callout[data-callout="cornell"] .callout-content > blockquote th {
+  background: color-mix(in srgb, var(--cornell-accent) 10%, transparent) !important;
+  font-weight: 600 !important;
+}
+
+.callout[data-callout="cornell"] tr,
+.callout[data-callout="cornell"] .callout-content tr,
+.callout[data-callout="cornell"] .callout-content > blockquote tr {
+  display: table-row !important;
+  grid-column: unset !important;
+  grid-row: unset !important;
+  grid-area: unset !important;
+}
+
+.callout[data-callout="cornell"] thead,
+.callout[data-callout="cornell"] tbody,
+.callout[data-callout="cornell"] .callout-content thead,
+.callout[data-callout="cornell"] .callout-content tbody,
+.callout[data-callout="cornell"] .callout-content > blockquote thead,
+.callout[data-callout="cornell"] .callout-content > blockquote tbody {
+  display: table-header-group !important;
+  grid-column: unset !important;
+  grid-row: unset !important;
+  grid-area: unset !important;
+}
+
+.callout[data-callout="cornell"] tbody,
+.callout[data-callout="cornell"] .callout-content tbody,
+.callout[data-callout="cornell"] .callout-content > blockquote tbody {
+  display: table-row-group !important;
+}
+
+/* Fix any layout issues with complex content */
+.callout[data-callout="cornell"] .callout-content > blockquote * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.callout[data-callout="cornell"] .callout-content > blockquote pre {
+  background: color-mix(in srgb, var(--background-primary) 95%, var(--background-secondary)) !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-border) 60%, transparent) !important;
+  border-radius: 8px !important;
+  padding: 0.8rem !important;
+  margin: 0.6rem 0 !important;
+  overflow-x: auto !important;
+  font-size: 0.85rem !important;
+  line-height: 1.4 !important;
+}
+
+.callout[data-callout="cornell"] .callout-content > blockquote code {
+  background: color-mix(in srgb, var(--cornell-accent) 10%, var(--background-primary)) !important;
+  color: color-mix(in srgb, var(--text-normal) 90%, var(--cornell-accent)) !important;
+  padding: 0.1rem 0.3rem !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
+  border: 1px solid color-mix(in srgb, var(--cornell-accent) 15%, transparent) !important;
+}
+
+.callout[data-callout="cornell"] .callout-content > blockquote img,
+.callout[data-callout="cornell"] .callout-content > blockquote .image-embed {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 8px !important;
+  margin: 0.5rem 0 !important;
+}
+
+/* Responsive for callouts */
+@media (max-width: 780px) {
+  .callout[data-callout="cornell"] {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "cue"
+      "notes"
+      "summary" !important;
+  }
+  .callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1)::after { 
+    display: none !important; 
+  }
+  
+  /* Make tables responsive on mobile */
+  .callout[data-callout="cornell"] .callout-content > blockquote table {
+    font-size: 0.8rem !important;
+  }
+  
+  .callout[data-callout="cornell"] .callout-content > blockquote th,
+  .callout[data-callout="cornell"] .callout-content > blockquote td {
+    padding: 0.3rem 0.4rem !important;
+  }
+}
+
