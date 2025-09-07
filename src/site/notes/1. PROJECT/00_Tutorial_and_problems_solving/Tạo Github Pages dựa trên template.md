@@ -168,7 +168,7 @@ Nếu bạn muốn nhóm các trang thành một mục menu con (parent-child hi
 - Để tạo TOC các heading trong một trang đơn: [In-Page Navigation | Just the Docs](https://just-the-docs.com/docs/navigation/in-page/)
 For an _ordered_ table of contents, use the following markdown code:
 
-```
+``` markdown
 1. TOC
 {:toc}
 ```
@@ -177,7 +177,7 @@ The `{:toc}` line _must_ follow the `1. TOC` line, which begins a list.
 
 For an _unordered_ table of contents, instead use the following markdown code:
 
-```
+``` markdown
 - TOC
 {:toc}
 ```
@@ -213,7 +213,9 @@ callouts:
 - Muốn dùng callout trong page thì:
 ```markdown
 {: .highlight }
-A paragraph in callout.....
+> A paragraph in callout.....
+> 
+> ...
 ```
 
 # Related
