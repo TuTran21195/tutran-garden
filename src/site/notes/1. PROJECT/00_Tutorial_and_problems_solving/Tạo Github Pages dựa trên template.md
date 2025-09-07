@@ -215,3 +215,6 @@ callouts:
 {: .highlight }
 A paragraph in callout.....
 ```
+
+# Related
+- Ngoài theme này ra thì có thể xem thêm các theme github pages khác tại [Free Jekyll Themes](https://jekyllthemes.io/free)
