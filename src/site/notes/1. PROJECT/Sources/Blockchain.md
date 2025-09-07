@@ -7,7 +7,7 @@
 > [!cornell]
 > > 
 > > - 3 properties quan trọng nhất?
-> > - Đồng thuận phi tập trung.
+> > - Đồng thuận phi tập trung, `51%`
 > > - Điểm cần kiểm tra lại:
 > > *Tại sao tấn công blockchain là khó khăn?*
 > > *Blockchain bị tấn công, nó sẽ phản ứng ra sao?* 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"test/","permalink":"/test/","title":"Testing component","tags":["tutran-garden"],"created":"2025-05-09T16:25:36.286+07:00"}
+{"dg-publish":true,"dg-permalink":"test/","permalink":"/test/","title":"Testing component","tags":["tutran-garden"],"created":"2025-05-30T01:05:52.000+07:00"}
 ---
 
 # Heading 1 - test căn lề hai bên, chữ cái như ê ế ề ệ ê ư ứ ừ ơ ớ ờ ợ
@@ -11,6 +11,7 @@
 ##### Heading 5
 
 ###### Heading 6
+[[3. ARCHIEVED/WordPressPublish/connect to this page\|connect to this page]]
 [[1. PROJECT/Giấu tin (Steg)/tutorial - Cách imodule bài lab đã tạo để publish\|tutorial - Cách imodule bài lab đã tạo để publish]]
 
 Hỗ trợ đến ==heading 6==, xem cách nó căn <font color="#b2a2c7">chỉnh lề </font>hai bên <font color="#b2a2c7">nè: lúc này phải chờ</font> khá lâu, đồng thời khi xong thì nó sẽ yêu cầu nhập mật khẩu của dockerhub của mình (vd: `tutran21195` `<matkhau>`)  
