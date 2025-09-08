@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1-project/sources/blockchain/","title":"Blockchain","created":"2025-09-05T17:22:21.512+07:00"}
+{"dg-publish":true,"permalink":"/1-project/sources/blockchain/","title":"Blockchain","created":"2025-09-05T17:22:21.512+07:00","updated":"2025-09-08T10:35:44.991+07:00"}
 ---
 
 
@@ -34,7 +34,7 @@
 > > 3. timestamp
 > > 4. = Hash(3 cái trên)
 > >
-> > **Links:**  • 
+> > **Links:**  [Giải thích công nghệ BLOCKCHAIN rất dễ hiểu](https://www.youtube.com/watch?v=auMA7jIHYvQ)• [Blockchain bị Tấn Công, nó sẽ Phản Ứng ra sao?? | Sang LV - YouTube](https://www.youtube.com/watch?v=Hw2KWQD9EGU)
 > 
 > > 
 > > - công nghệ lưu trữ dữ liệu (giao dịch)
@@ -42,4 +42,4 @@
 > > - băm, linked
 
 # Ref
-![Giải thích công nghệ BLOCKCHAIN rất dễ hiểu](https://www.youtube.com/watch?v=auMA7jIHYvQ)
+<iframe width="100%" height="315"  src="https://www.youtube.com/embed/auMA7jIHYvQ" class="youtube" title="Giải thích công nghệ BLOCKCHAIN rất dễ hiểu" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
