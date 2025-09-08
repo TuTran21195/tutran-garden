@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/5-tutran-garden/tutran-garden-homepage/","title":"Tutran Garden","pinned":true,"tags":["tutran-garden","gardenEntry"],"created":"2025-05-30T01:05:52.000+07:00","updated":"2025-09-08T12:24:21.272+07:00"}
+{"dg-publish":true,"permalink":"/5-tutran-garden/tutran-garden-homepage/","title":"Tutran Garden","pinned":true,"tags":["tutran-garden","gardenEntry"],"created":"2025-05-30T01:05:52.000+07:00","updated":"2025-09-08T12:46:24.405+07:00"}
 ---
 
 # Hi there! Welcome to Tutran Garden
@@ -20,6 +20,8 @@ Với một số ảnh không quá quan trọng, mình sẽ không up nó với 
 # Highlight Publish notes
 
 Một số bài viết nổi bật của mình:
-![[Digital Garden Base.base#Published Pages]]
+- [[1. PROJECT/Sources/Blockchain\|Blockchain]]
+- [[1. PROJECT/Giấu tin (Steg)/tutorial - Cách imodule bài lab đã tạo để publish\|tutorial - Cách imodule bài lab đã tạo để publish]]
+- ...
 
 > [!warning] Một số note liên kết sẽ không khả dụng khi mình chưa publish nó. Nếu bạn có nhu cầu thì có thể liên hệ với mình. Tìm mình tại: [ig@chrome.96morr](https://www.instagram.com/chrome.96morr/)
