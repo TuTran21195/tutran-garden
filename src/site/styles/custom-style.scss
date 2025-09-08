@@ -41,49 +41,6 @@ body {
 
 }
 
-.social-links {
-  margin: 10px 15px;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-
-.social-links a {
-  color: var(--text-normal, #2e3338);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: var(--interactive-accent, #7c6ff0);
-}
-
-.social-links i {
-  font-size: 1.5rem;
-}
-
-/* Dark mode adjustments */
-@media (prefers-color-scheme: dark) {
-  .social-links a {
-    color: var(--text-normal, #d1d5db);
-  }
-
-  .social-links a:hover {
-    color: var(--interactive-accent, #a1a1ff);
-  }
-}
-
-:root {
-  --text-normal: #2e3338;
-  --interactive-accent: #7c6ff0;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-normal: #d1d5db;
-    --interactive-accent: #a1a1ff;
-  }
-}
 
 
 // =======================================================================================================================
