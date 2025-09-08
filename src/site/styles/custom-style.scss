@@ -372,7 +372,7 @@ body .cornell-summary,
 }
 
 /* Cornell sections in callouts with distinct colors */
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1) {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2) {
   grid-area: cue !important;
   background: color-mix(in srgb, var(--cornell-cue-color) 8%, var(--background-primary) 92%) !important;
   border-radius: 14px !important;
@@ -384,7 +384,7 @@ body .cornell-summary,
   z-index: 1 !important;
 }
 
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2) {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3) {
   grid-area: notes !important;
   background: color-mix(in srgb, var(--cornell-notes-color) 8%, var(--background-primary) 92%) !important;
   border-radius: 14px !important;
@@ -396,7 +396,7 @@ body .cornell-summary,
   z-index: 0 !important;
 }
 
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3) {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(4) {
   grid-area: summary !important;
   background: color-mix(in srgb, var(--cornell-summary-color) 8%, var(--background-primary) 92%) !important;
   border-radius: 12px !important;
@@ -409,7 +409,7 @@ body .cornell-summary,
 }
 
 /* Section headers with distinct colors */
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1)::before {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2)::before {
   content: "Cue / Questions" !important;
   display: block !important;
   font-size: 1rem !important;
@@ -432,7 +432,7 @@ body .cornell-summary,
   gap: .5rem !important;
 }
 
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2)::before {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3)::before {
   content: "Notes" !important;
   display: block !important;
   font-size: 1rem !important;
@@ -455,7 +455,7 @@ body .cornell-summary,
   gap: .5rem !important;
 }
 
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3)::before {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(4)::before {
   content: "Summary" !important;
   display: block !important;
   font-size: 1rem !important;
@@ -479,7 +479,7 @@ body .cornell-summary,
 }
 
 /* Cue line for callout with custom color */
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1)::after {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2)::after {
   content: "" !important;
   position: absolute !important;
   top: .8rem !important; 
@@ -497,7 +497,7 @@ body .cornell-summary,
 }
 
 /* Cue hint for callout */
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1) p:first-child::before {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2) p:first-child::before {
   content: "Keywords • câu hỏi ngắn • trigger points" !important;
   display: block !important;
   font-size: .8rem !important;
@@ -511,7 +511,7 @@ body .cornell-summary,
 }
 
 /* Notes hint for callout */
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2) p:first-child::before {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3) p:first-child::before {
   content: "Key points • bullet format • not full transcript" !important;
   display: block !important;
   font-size: .8rem !important;
@@ -525,7 +525,7 @@ body .cornell-summary,
 }
 
 /* Summary hint for callout */
-.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(3) p:first-child::before {
+.callout[data-callout="cornell"] .callout-content > blockquote:nth-child(4) p:first-child::before {
   content: "Tóm tắt 2–3 câu • trọng tâm (essence) • big picture" !important;
   display: block !important;
   font-size: .8rem !important;
@@ -645,7 +645,7 @@ body .cornell-summary,
       "notes"
       "summary" !important;
   }
-  .callout[data-callout="cornell"] .callout-content > blockquote:nth-child(1)::after { 
+  .callout[data-callout="cornell"] .callout-content > blockquote:nth-child(2)::after { 
     display: none !important; 
   }
   
