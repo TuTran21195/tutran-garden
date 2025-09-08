@@ -5935,7 +5935,7 @@ body {
   }
   .markdown-rendered pre code {
     border: none;
-    padding: 1em; // chuyển từ 0 sang 1em để phần code full box ``` sẽ được cách ra (``` sẽ khác với inline code `)
+    padding: 0em; // chuyển từ 0 sang 1em để phần code full box ``` sẽ được cách ra (``` sẽ khác với inline code `)
   }
   .markdown-rendered pre:not(:hover) > button.copy-code-button {
     display: none;
