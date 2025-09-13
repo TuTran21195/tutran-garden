@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/LSB/LSB audio thuần.md","dg-permalink":"2025/stego/basic-lsb","permalink":"/2025/stego/basic-lsb/","title":"LSB thuần","tags":["do-an"],"created":"2025-09-06T09:57:45.389+07:00","updated":"2025-09-13T17:58:56.402+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/LSB/LSB audio thuần.md","dg-permalink":"2025/stego/basic-lsb","permalink":"/2025/stego/basic-lsb/","title":"LSB thuần","tags":["do-an"],"created":"2025-09-06T09:57:45.389+07:00","updated":"2025-09-13T18:00:26.995+07:00"}
 ---
 
 # Information
-<div style="display: flex; justify-content: center; gap: 10px;">
+<div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
   <form action="https://github.com/TuTran21195/steg-labs">
     <button type="submit" style="padding: 10px; background: #24292e; color: white; border-radius: 5px; border: none;">Github Labs Repository</button>
   </form>
