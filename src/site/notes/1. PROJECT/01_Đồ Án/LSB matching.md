@@ -1,7 +1,17 @@
 ---
-{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/LSB/LSB matching.md","dg-permalink":"2025/stego/lsb-matching","permalink":"/2025/stego/lsb-matching/","title":"LSB matching","created":"2025-09-06T11:10:32.643+07:00","updated":"2025-09-13T16:10:15.860+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/LSB/LSB matching.md","dg-permalink":"2025/stego/lsb-matching","permalink":"/2025/stego/lsb-matching/","title":"LSB matching","created":"2025-09-06T11:10:32.643+07:00","updated":"2025-09-13T18:01:55.989+07:00"}
 ---
 
+
+# Information
+<div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+  <form action="https://github.com/TuTran21195/steg-labs">
+    <button type="submit" style="padding: 10px; background: #24292e; color: white; border-radius: 5px; border: none;">Github Labs Repository</button>
+  </form>
+  <form action="https://tutran21195.github.io/steg-labs/docs/lsb-labs.html">
+    <button type="submit" style="padding: 10px; background: #007bff; color: white; border-radius: 5px; border: none;">This Labs tutorial</button>
+  </form>
+</div>
 
 # Abstract
 

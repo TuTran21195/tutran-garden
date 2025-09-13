@@ -1,8 +1,17 @@
 ---
-{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/Phase-Coding/Phase coding - Cách chia đoạn âm thanh.md","dg-permalink":"2025/stego/phase-coding-sub","permalink":"/2025/stego/phase-coding-sub/","title":"Phase coding - Cách chia đoạn âm thanh","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:44:18.534+07:00","updated":"2025-09-13T16:09:43.311+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/Phase-Coding/Phase coding - Cách chia đoạn âm thanh.md","dg-permalink":"2025/stego/phase-coding-sub","permalink":"/2025/stego/phase-coding-sub/","title":"Phase coding - Cách chia đoạn âm thanh","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:44:18.534+07:00","updated":"2025-09-13T18:02:35.469+07:00"}
 ---
 
 
+# Information
+<div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+  <form action="https://github.com/TuTran21195/steg-labs">
+    <button type="submit" style="padding: 10px; background: #24292e; color: white; border-radius: 5px; border: none;">Github Labs Repository</button>
+  </form>
+  <form action="https://tutran21195.github.io/steg-labs">
+    <button type="submit" style="padding: 10px; background: #007bff; color: white; border-radius: 5px; border: none;">This Labs tutorial</button>
+  </form>
+</div>
 
 
 ### Giải Thích Chi Tiết Về Việc Chia Đoạn Và Dung Lượng Vector Pha Trong Phase Coding

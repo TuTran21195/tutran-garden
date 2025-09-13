@@ -1,7 +1,17 @@
 ---
-{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/Phase-Coding/Cơ bản về âm thanh, Fourier.md","dg-permalink":"2025/stego/audio-fourier-dft","permalink":"/2025/stego/audio-fourier-dft/","title":"Cơ bản về âm thanh, Fourier","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:10:24.783+07:00","updated":"2025-09-13T16:10:45.997+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/Phase-Coding/Cơ bản về âm thanh, Fourier.md","dg-permalink":"2025/stego/audio-fourier-dft","permalink":"/2025/stego/audio-fourier-dft/","title":"Cơ bản về âm thanh, Fourier","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:10:24.783+07:00","updated":"2025-09-13T18:03:04.906+07:00"}
 ---
 
+
+### Information
+<div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+  <form action="https://github.com/TuTran21195/steg-labs">
+    <button type="submit" style="padding: 10px; background: #24292e; color: white; border-radius: 5px; border: none;">Github Labs Repository</button>
+  </form>
+  <form action="https://tutran21195.github.io/steg-labs">
+    <button type="submit" style="padding: 10px; background: #007bff; color: white; border-radius: 5px; border: none;">This Labs tutorial</button>
+  </form>
+</div>
 
 
 ### Ví dụ đơn giản về đoạn âm thanh và DFT
