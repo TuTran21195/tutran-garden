@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"\"Audio Steganography/Phase-Coding/Phase coding - Cách chia đoạn âm thanh.md\"","dg-permalink":"2025/stego/phase-coding-sub","permalink":"/2025/stego/phase-coding-sub/","title":"Phase coding - Cách chia đoạn âm thanh","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:44:18.534+07:00","updated":"2025-09-13T16:03:23.122+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/Phase-Coding/Phase coding - Cách chia đoạn âm thanh.md","dg-permalink":"2025/stego/phase-coding-sub","permalink":"/2025/stego/phase-coding-sub/","title":"Phase coding - Cách chia đoạn âm thanh","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:44:18.534+07:00","updated":"2025-09-13T16:09:43.311+07:00"}
 ---
 
 

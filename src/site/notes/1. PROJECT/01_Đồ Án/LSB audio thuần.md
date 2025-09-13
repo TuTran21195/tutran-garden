@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"\"Audio Steganography/LSB/LSB audio thuần.md\"","dg-permalink":"2025/stego/basic-lsb","permalink":"/2025/stego/basic-lsb/","title":"LSB thuần","tags":["do-an"],"created":"2025-09-06T09:57:45.389+07:00","updated":"2025-09-13T16:04:32.395+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/LSB/LSB audio thuần.md","dg-permalink":"2025/stego/basic-lsb","permalink":"/2025/stego/basic-lsb/","title":"LSB thuần","tags":["do-an"],"created":"2025-09-06T09:57:45.389+07:00","updated":"2025-09-13T16:10:37.328+07:00"}
 ---
 
 

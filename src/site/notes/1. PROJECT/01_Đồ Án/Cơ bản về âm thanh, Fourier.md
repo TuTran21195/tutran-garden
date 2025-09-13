@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"\"Audio Steganography/Phase-Coding/Cơ bản về âm thanh, Fourier.md\"","dg-permalink":"2025/stego/audio-fourier-dft","permalink":"/2025/stego/audio-fourier-dft/","title":"Cơ bản về âm thanh, Fourier","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:10:24.783+07:00","updated":"2025-09-13T16:03:35.937+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/Phase-Coding/Cơ bản về âm thanh, Fourier.md","dg-permalink":"2025/stego/audio-fourier-dft","permalink":"/2025/stego/audio-fourier-dft/","title":"Cơ bản về âm thanh, Fourier","tags":["do-an","lecture_notes"],"created":"2025-09-12T15:10:24.783+07:00","updated":"2025-09-13T16:10:45.997+07:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"\"Audio Steganography/STSM.md\"","dg-permalink":"2025/stego/stsm-lecture","permalink":"/2025/stego/stsm-lecture/","title":"STSM","tags":["do-an","lecture_notes"],"created":"2025-09-13T15:15:45.845+07:00","updated":"2025-09-13T15:57:58.598+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/STSM.md","dg-permalink":"2025/stego/stsm-lecture","permalink":"/2025/stego/stsm-lecture/","title":"STSM","tags":["do-an","lecture_notes"],"created":"2025-09-13T15:15:45.845+07:00","updated":"2025-09-13T16:09:22.798+07:00"}
 ---
 
 

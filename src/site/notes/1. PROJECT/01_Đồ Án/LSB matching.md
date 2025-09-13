@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"\"Audio Steganography/LSB/LSB matching.md\"","dg-permalink":"2025/stego/lsb-matching","permalink":"/2025/stego/lsb-matching/","title":"LSB matching","created":"2025-09-06T11:10:32.643+07:00","updated":"2025-09-13T16:03:28.241+07:00"}
+{"dg-publish":true,"dg-path":"1. PROJECT/Audio Steganography/LSB/LSB matching.md","dg-permalink":"2025/stego/lsb-matching","permalink":"/2025/stego/lsb-matching/","title":"LSB matching","created":"2025-09-06T11:10:32.643+07:00","updated":"2025-09-13T16:10:15.860+07:00"}
 ---
 
 
