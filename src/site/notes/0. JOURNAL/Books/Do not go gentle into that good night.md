@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/0-journal/books/do-not-go-gentle-into-that-good-night/","title":"Do not go gentle into that good night","created":"2025-10-28T17:29:51.148+07:00","updated":"2025-10-28T18:14:31.744+07:00"}
+{"dg-publish":true,"permalink":"/0-journal/books/do-not-go-gentle-into-that-good-night/","title":"Do not go gentle into that good night","created":"2025-10-28T17:29:51.148+07:00","updated":"2025-10-29T20:07:08.042+07:00"}
 ---
 
 
 # 📚 Info
 **Do not go gentle into that good night**
 - Author: Dylan Marlais Thomas
-- Related: [[0. JOURNAL/Books/Cây Nấm Nhỏ\|Cây Nấm Nhỏ]]
+- Related: [[0. JOURNAL/Books/Cây Nấm Nhỏ\|Cây Nấm Nhỏ]], [[0. JOURNAL/Books/Interstellar(2014)\|Interstellar(2014)]]
 
 “Đừng điềm nhiên bước vào màn đêm sâu”, nó có nghĩa là *đừng dễ dàng khuất phục trước cái chết.*
 
@@ -54,7 +54,7 @@ Vùng lên, vùng lên chống lại ánh dương đang tàn rũ”
 Bẽ bàng chợt hiểu vạn sự vụt tan nơi cuối đường,
 Đừng điềm nhiên bước vào màn đêm sâu.”
 
-“Kẻ trầm lặng khi đang hấp hối chẳng thấy đường,
+“Kẻ chết lặng khi đang hấp hối chẳng thấy đường,
 Dẫu mù loà đôi mắt vẫn rực sao,
 Vùng lên, vùng lên chống lại ánh dương đang tàn rũ.”
 
