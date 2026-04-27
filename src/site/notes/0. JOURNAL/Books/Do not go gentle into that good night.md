@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/0-journal/books/do-not-go-gentle-into-that-good-night/","title":"Do not go gentle into that good night","created":"2025-10-28T17:29:51.148+07:00","updated":"2025-10-29T20:07:08.042+07:00"}
+{"dg-publish":true,"permalink":"/0-journal/books/do-not-go-gentle-into-that-good-night/","title":"Do not go gentle into that good night","created":"2025-10-28T17:29:51.148+07:00","updated":"2025-11-04T07:42:31.043+07:00","dg-note-properties":{"title":"Do not go gentle into that good night","permalink":null,"feed":"show","key-words":null,"tags":null,"date":"2025-10-28 17:30","cover-img":"#FF0038","rating":10,"reading-status":"reviewed","description":"Đừng dễ dàng khuất phục trước cái chết"}}
 ---
 
 
@@ -47,7 +47,7 @@ Lời chưa bừng sáng, họ hãy còn tự nhủ
 Đừng điềm nhiên bước vào màn đêm sâu.”
 
 "Kẻ thiện tâm khi ngày tàn, than bao điều chưa trọn,
-Thiện ý này đáng lẽ còn vút bay,
+Khắc khoải lòng son, gieo trồng thêm thiện ý
 Vùng lên, vùng lên chống lại ánh dương đang tàn rũ”
 
 “Kẻ ngông cuồng mải mê đuổi ánh mặt trời bay vút,
